@@ -1,0 +1,28 @@
+cantor (4:4.7.1-0ubuntu2) oneiric; urgency=low
+
+  * No-change rebuild so translations aren't stripped from .desktop
+    files anymore.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Thu, 15 Sep 2011 22:52:05 +0200
+
+cantor (4:4.7.1-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+    - Bump kde-sc-dev-latest build dependency to 4:4.7.1
+
+ -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Fri, 09 Sep 2011 00:53:49 -0400
+
+cantor (4:4.7.0-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 23 Jul 2011 01:27:31 +0200
+
+cantor (4:4.6.90+repack1-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release candidate
+  * Update package for split tarball
+  * Disable cantor-backend-kalgebra which isn't built
+  * Repack to add missing COPYING files
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 30 Jun 2011 07:55:47 +0200
