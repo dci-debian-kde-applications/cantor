@@ -11,7 +11,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
  pkg-config,
  libspectre-dev,
  libx11-dev,
- kalgebra
+ kalgebra-dev
 # r-base-core
 Standards-Version: 3.9.2
 Homepage: http://edu.kde.org/
@@ -21,7 +21,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/cantor.git
 Package: cantor
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-#Recommends: cantor-backend-kalgebra
+Recommends: cantor-backend-kalgebra
 Suggests: cantor-backend-maxima, cantor-backend-sage,
  cantor-backend-octave
 # cantor-backend-r
@@ -33,7 +33,7 @@ Description: interface for mathematical applications
  .
  Cantor supports various mathematical applications as backends (provided in
  external packages):
-#  * KAlgebra (cantor-backend-kalgebra)
+  * KAlgebra (cantor-backend-kalgebra)
   * Maxima Computer Algebra System (cantor-backend-maxima)
 #  * R Project for Statistical Computing (cantor-backend-r)
   * Sage Mathematics Software (cantor-backend-sage)
@@ -41,19 +41,19 @@ Description: interface for mathematical applications
  .
  This package is part of the KDE education module.
 
-#Package: cantor-backend-kalgebra
-#Architecture: any
-#Depends: ${shlibs:Depends}, ${misc:Depends}, kalgebra
-#Description: KAlgebra backend for Cantor
-# Cantor is an application to allow you to you use your favorite mathematical
-# applications from within an elegant KDE-integrated worksheet interface. It
-# provides dialogs to assist with common tasks and allows you to share your
-# worksheets with others.
-# .
-# This package provides the backend for using KAlgebra
-# (http://edu.kde.org/kalgebra) in Cantor.
-# .
-# This package is part of the KDE education module.
+Package: cantor-backend-kalgebra
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kalgebra
+Description: KAlgebra backend for Cantor
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant KDE-integrated worksheet interface. It
+ provides dialogs to assist with common tasks and allows you to share your
+ worksheets with others.
+ .
+ This package provides the backend for using KAlgebra
+ (http://edu.kde.org/kalgebra) in Cantor.
+ .
+ This package is part of the KDE education module.
 
 Package: cantor-backend-maxima
 Architecture: any
