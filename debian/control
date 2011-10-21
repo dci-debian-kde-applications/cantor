@@ -25,8 +25,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: cantor-backend-kalgebra
 Suggests: cantor-backend-maxima, cantor-backend-sage,
- cantor-backend-octave
-# cantor-backend-r
+ cantor-backend-octave,
+ cantor-backend-r
 Description: interface for mathematical applications
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant KDE-integrated worksheet interface. It
@@ -37,7 +37,7 @@ Description: interface for mathematical applications
  external packages):
   * KAlgebra (cantor-backend-kalgebra)
   * Maxima Computer Algebra System (cantor-backend-maxima)
-#  * R Project for Statistical Computing (cantor-backend-r)
+  * R Project for Statistical Computing (cantor-backend-r)
   * Sage Mathematics Software (cantor-backend-sage)
   * Octave (cantor-backend-octave)
  .
@@ -99,20 +99,20 @@ Description: Sage backend for Cantor
  .
  This package is part of the KDE education module.
 
-#Package: cantor-backend-r
-#Architecture: any
-#Depends: ${shlibs:Depends}, ${misc:Depends}, r-base-core
-#Suggests: r-base-html
-#Description: R backend for Cantor
-# Cantor is an application to allow you to you use your favorite mathematical
-# applications from within an elegant KDE-integrated worksheet interface. It
-# provides dialogs to assist with common tasks and allows you to share your
-# worksheets with others.
-# .
-# This package provides the backend for using the R Project for Statistical
-# Computing (http://www.r-project.org) in Cantor.
-# .
-# This package is part of the KDE education module.
+Package: cantor-backend-r
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, r-base-core
+Suggests: r-base-html
+Description: R backend for Cantor
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant KDE-integrated worksheet interface. It
+ provides dialogs to assist with common tasks and allows you to share your
+ worksheets with others.
+ .
+ This package provides the backend for using the R Project for Statistical
+ Computing (http://www.r-project.org) in Cantor.
+ .
+ This package is part of the KDE education module.
 
 Package: cantor-dbg
 Architecture: any
