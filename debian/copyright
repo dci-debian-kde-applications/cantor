@@ -45,6 +45,10 @@ License: GFDL-1.2
  with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
  A copy of the license is included in the section entitled "GNU
  Free Documentation License".
+ .
+ On Debian systems, the full text of the GNU Free Documentation
+ License version 1.2 can be found in the file
+ `/usr/share/common-licenses/GFDL-1.2'.
 
 License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without
