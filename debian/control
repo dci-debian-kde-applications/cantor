@@ -24,7 +24,7 @@ Package: cantor
 Architecture: any
 Section: math
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: cantor-backend-kalgebra
+Recommends: cantor-backend-kalgebra, texlive-latex-base, texlive-binaries
 Suggests: cantor-backend-maxima, cantor-backend-r, cantor-backend-sage,
  cantor-backend-octave
 Description: interface for mathematical applications

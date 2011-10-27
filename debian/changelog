@@ -2,4 +2,9 @@ cantor (4:4.7.2-0r1) UNRELEASED; urgency=low
 
   * Initial release. Start from the Ubuntu packaging, thanks!
 
+  [ Pino Toscano ]
+  * cantor: recommend texlive-latex-base and texlive-binaries for the
+    `latex` and `dvips` commands, used to pretty-print formulas.
+    (Closes: #601296)
+
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 18 Oct 2011 01:02:36 +0200
