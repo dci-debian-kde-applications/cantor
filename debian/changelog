@@ -1,4 +1,4 @@
-cantor (4:4.7.2-0r2) experimental; urgency=low
+cantor (4:4.7.2-1) experimental; urgency=low
 
   * Initial release. Start from the Ubuntu packaging, thanks!
 
