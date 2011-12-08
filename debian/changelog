@@ -4,6 +4,7 @@ cantor (4:4.7.4-0r0) UNRELEASED; urgency=low
   
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
+  * Remove add_find_analitza_cmake.diff, applied upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Dec 2011 01:55:34 +0100
 
