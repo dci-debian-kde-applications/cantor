@@ -105,7 +105,7 @@ Package: cantor-backend-sage
 Architecture: any
 Section: math
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: sagemath
+Suggests: sagemath
 Description: Sage backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant KDE-integrated worksheet interface. It
@@ -114,6 +114,9 @@ Description: Sage backend for Cantor
  .
  This package provides the backend for using the Sage Mathematics Software
  (http://www.sagemath.org) in Cantor.
+ .
+ Please note that sagemath is not available in Debian, so you need to manually
+ install it for this package to work.
  .
  This package is part of the KDE education module.
 

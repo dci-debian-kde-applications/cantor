@@ -1,0 +1,10 @@
+Sage backend for Cantor for Debian
+----------------------------------
+
+At the moment, Sage is not available in Debian, so you need to manually
+install it for making cantor-backend-sage useful.
+Cantor will use Sage automatically if the `sage' executable is in $PATH
+(so `which sage' returns its path); if it is not, you can set the path to the
+locally installed `sage' in the preferences of the Sage backend of Cantor.
+
+ -- Debian Qt/KDE Maintainers
