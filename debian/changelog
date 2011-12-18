@@ -1,4 +1,4 @@
-cantor (4:4.7.4-0r1) UNRELEASED; urgency=low
+cantor (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release. 
   
@@ -11,7 +11,7 @@ cantor (4:4.7.4-0r1) UNRELEASED; urgency=low
     add notes in the description and in a new README.Debian about the need
     of installing Sage manually. (Closes: #651825)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Dec 2011 01:55:34 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 01:39:29 +0100
 
 cantor (4:4.7.2-1) experimental; urgency=low
 
