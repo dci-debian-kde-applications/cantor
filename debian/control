@@ -130,3 +130,5 @@ Replaces: kdeedu-dbg (<< 4:4.6.80)
 Description: debugging symbols for cantor
  This package contains debugging files used to investigate problems with
  binaries included in cantor.
+ .
+ This package is part of the KDE education module.

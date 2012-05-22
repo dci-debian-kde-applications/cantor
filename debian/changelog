@@ -5,6 +5,8 @@ cantor (4:4.7.4-3) UNRELEASED; urgency=low
     building with GCC 4.7; patch
     upstream_Qualify-which-setupUi-is-being-called.patch. (Closes: #667127)
   * Bump Standards-Version to 3.9.3, no changes required.
+  * Add "standard footer" to the description of cantor-dbg to not have it
+    considered as too short.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Mar 2012 18:48:42 +0100
 
