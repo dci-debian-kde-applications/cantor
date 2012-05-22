@@ -1,5 +1,9 @@
 cantor (4:4.7.4-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Backport upstream commit 56040ac851dc9180ae51c0e5041984abef54e7f2 to fix
+    building with GCC 4.7; patch
+    upstream_Qualify-which-setupUi-is-being-called.patch. (Closes: #667127)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Mar 2012 18:48:42 +0100
 

@@ -1,0 +1,29 @@
+From 56040ac851dc9180ae51c0e5041984abef54e7f2 Mon Sep 17 00:00:00 2001
+From: Raphael Kubo da Costa <kubo@profusion.mobi>
+Date: Mon, 2 Jan 2012 11:15:54 -0200
+Subject: [PATCH] Qualify which setupUi() is being called.
+
+DirectiveControl inherits from both UI and DirectiveProducer, and both
+provide setupUi(), which breaks the build with clang.
+
+Be explicit and call UI::setupUi().
+---
+ src/lib/extension.h |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/lib/extension.h b/src/lib/extension.h
+index 2fec771..bfd859d 100644
+--- a/src/lib/extension.h
++++ b/src/lib/extension.h
+@@ -249,7 +249,7 @@ class CANTOR_EXPORT AdvancedPlotExtension : public Extension
+     template <class UI> class DirectiveControl : protected UI, public DirectiveProducer
+     {
+         public:
+-            DirectiveControl(QWidget* parent) : DirectiveProducer(parent) { setupUi(this); }
++            DirectiveControl(QWidget* parent) : DirectiveProducer(parent) { UI::setupUi(this); }
+         protected:
+             typedef DirectiveControl<UI> AbstractParent;
+     };
+-- 
+1.7.10
+
