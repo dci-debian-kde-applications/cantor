@@ -23,7 +23,7 @@ Section: math
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: cantor-backend-kalgebra, texlive-latex-base, texlive-binaries
 Suggests: cantor-backend-maxima, cantor-backend-r, cantor-backend-sage,
- cantor-backend-octave
+ cantor-backend-octave, cantor-backend-qalculate, cantor-backend-scilab
 Description: interface for mathematical applications
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant KDE-integrated worksheet interface. It
