@@ -1,4 +1,4 @@
-cantor (4:4.8.4-0r3) UNRELEASED; urgency=low
+cantor (4:4.8.4-1) experimental; urgency=low
 
   * Team upload. Upload to experimental.
   * New upstream release. 
@@ -18,7 +18,7 @@ cantor (4:4.8.4-0r3) UNRELEASED; urgency=low
   * Add watch file.
   * Update copyright file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Jun 2012 03:14:24 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 17 Jun 2012 16:55:31 -0300
 
 cantor (4:4.7.4-3) unstable; urgency=low
 
