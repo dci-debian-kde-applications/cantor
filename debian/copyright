@@ -14,6 +14,10 @@ Copyright: 2009-2010 Alexander Rieder <alexanderrieder@gmail.com>
            2010 Raffaele De Feo <alberthilbert@gmail.com>
            2009-2010 Oleksiy Protas <elfy.ua@gmail.com>
            2009 Aleix Pol <aleixpol@kde.org>
+           2011 Filipe Saraiva <filipe@kde.org>
+           2009 Milian Wolff <mail@milianw.de>
+           2011 Martin Kuettler <martinkuettler@gmail.com>
+           2011  Matteo Agostinelli <agostinelli@gmail.com>
 License: GPL-2+
 
 Files: src/backends/qalculate/settingswidget.*
