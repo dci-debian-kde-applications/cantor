@@ -88,7 +88,7 @@ Description: Octave backend for Cantor
 Package: cantor-backend-qalculate
 Architecture: any
 Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends}, qalculate
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Qalculate! backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant KDE-integrated worksheet interface. It
@@ -138,7 +138,7 @@ Description: Sage backend for Cantor
 Package: cantor-backend-scilab
 Architecture: any
 Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, scilab-cli
 Description: Scilab backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant KDE-integrated worksheet interface. It
