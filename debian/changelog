@@ -6,6 +6,8 @@ cantor (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
   * Bump kdelibs5-dev build dependency to 4:4.8.
   * Build depend on libanalitza-dev instead of kalgebra-dev.
+  * Build depend on libqalculate-dev and libglib2.0-dev, needed to build the
+    qalculate backend.
   * Remove upstream_Qualify-which-setupUi-is-being-called.patch, applied
     upstream.
   * Add watch file.

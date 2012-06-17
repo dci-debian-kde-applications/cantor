@@ -10,7 +10,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
  libspectre-dev,
  r-base-core,
  libblas3gf,
- liblapack3gf
+ liblapack3gf,
+ libqalculate-dev, libglib2.0-dev
 Standards-Version: 3.9.3
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/cantor.git
