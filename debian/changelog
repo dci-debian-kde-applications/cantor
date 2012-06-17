@@ -17,6 +17,7 @@ cantor (4:4.8.4-1) experimental; urgency=low
     upstream.
   * Add watch file.
   * Update copyright file.
+  * Update lintian overrides.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 17 Jun 2012 16:55:31 -0300
 
