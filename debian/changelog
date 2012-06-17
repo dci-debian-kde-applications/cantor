@@ -3,6 +3,8 @@ cantor (4:4.8.4-0r0) UNRELEASED; urgency=low
   * New upstream release. 
 
   [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
+  * Bump kdelibs5-dev build dependency to 4:4.8.
   * Add watch file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Jun 2012 03:14:24 +0200
