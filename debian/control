@@ -85,6 +85,21 @@ Description: Octave backend for Cantor
  .
  This package is part of the KDE education module.
 
+Package: cantor-backend-qalculate
+Architecture: any
+Section: math
+Depends: ${shlibs:Depends}, ${misc:Depends}, qalculate
+Description: Octave backend for Cantor
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant KDE-integrated worksheet interface. It
+ provides dialogs to assist with common tasks and allows you to share your
+ worksheets with others.
+ .
+ This package provides the backend for using the Qalculate! calculator
+ (http://qalculate.sourceforge.net/) in Cantor.
+ .
+ This package is part of the KDE education module.
+
 Package: cantor-backend-r
 Architecture: any
 Section: math
@@ -117,6 +132,21 @@ Description: Sage backend for Cantor
  .
  Please note that sagemath is not available in Debian, so you need to manually
  install it for this package to work.
+ .
+ This package is part of the KDE education module.
+
+Package: cantor-backend-scilab
+Architecture: any
+Section: math
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Octave backend for Cantor
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant KDE-integrated worksheet interface. It
+ provides dialogs to assist with common tasks and allows you to share your
+ worksheets with others.
+ .
+ This package provides the backend for using the Scilab scientific software
+ package for numerical computations (http://www.scilab.org) in Cantor.
  .
  This package is part of the KDE education module.
 

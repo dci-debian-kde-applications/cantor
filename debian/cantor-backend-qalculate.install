@@ -1,0 +1,7 @@
+usr/lib/kde4/cantor_qalculatebackend.so
+usr/lib/kde4/cantor_qalculateplotassistant.so
+usr/share/icons/hicolor/48x48/apps/qalculatebackend.png
+usr/share/kde4/apps/cantor/cantor_qalculateplotassistant.rc
+usr/share/kde4/config.kcfg/qalculatebackend.kcfg
+usr/share/kde4/services/cantor/qalculatebackend.desktop
+usr/share/kde4/services/cantor/qalculateplotassistant.desktop
