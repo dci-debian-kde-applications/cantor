@@ -8,6 +8,7 @@ cantor (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Build depend on libanalitza-dev instead of kalgebra-dev.
   * Build depend on libqalculate-dev and libglib2.0-dev, needed to build the
     qalculate backend.
+  * Update installed files.
   * Add new backends:
     - cantor-backend-qalculate
     - cantor-backend-scilab
