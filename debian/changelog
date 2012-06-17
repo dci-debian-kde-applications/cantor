@@ -15,6 +15,7 @@ cantor (4:4.8.4-0r3) UNRELEASED; urgency=low
   * Remove upstream_Qualify-which-setupUi-is-being-called.patch, applied
     upstream.
   * Add watch file.
+  * Update copyright file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Jun 2012 03:14:24 +0200
 

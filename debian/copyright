@@ -1,8 +1,11 @@
-Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?view=markup&pathrev=174
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Comment: This package was developed for Ubuntu by the Kubuntu Developers and
+ modified to be included in Debian. See below the copyright holders for debian/*
+ files.
 
 Files: doc/*
 Copyright: 2009 Alexander Rieder <alexanderrieder@gmail.com>
-License: GFDL-1.2
+License: GFDL-NIV-1.2+
 
 Files: src/*
 Copyright: 2009-2010 Alexander Rieder <alexanderrieder@gmail.com>
@@ -13,13 +16,19 @@ Copyright: 2009-2010 Alexander Rieder <alexanderrieder@gmail.com>
            2009 Aleix Pol <aleixpol@kde.org>
 License: GPL-2+
 
-Files: cmake/FindLibSpectre.cmake
-Copyright: 2006-2007, Pino Toscano, <pino@kde.org>
-           2008, Albert Astals Cid, <aacid@kde.org>
+Files: src/backends/qalculate/settingswidget.*
+Copyright: 2011  Matteo Agostinelli <agostinelli@gmail.com>
+License: GPL-3+
+
+Files: cmake/*
+Copyright: 2006-2007 Pino Toscano <pino@kde.org>
+           2008 Albert Astals Cid <aacid@kde.org>
+           2007 Vladimir Kuznetsov <ks.vladimir@gmail.com>
 License: BSD-3-clause
 
 Files: debian/*
 Copyright: 2011 Kubuntu Developers <kubuntu-devel@lists.launchpad.net>
+           2012 José Manuel Santamaría Lema <panfaust@gmail.com>
 License: GPL-2+
 
 License: GPL-2+
@@ -37,8 +46,30 @@ License: GPL-2+
  along with this program; if not, write to the Free Software
  Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA  02110-1301, USA.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file
+ `/usr/share/common-licenses/GPL-2'.
 
-License: GFDL-1.2
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 3 can be found in the file
+ `/usr/share/common-licenses/GPL-3'.
+
+License: GFDL-NIV-1.2+
  Permission is granted to copy, distribute and/or modify this document
  under the terms of the GNU Free Documentation License, Version 1.2
  or any later version published by the Free Software Foundation;
