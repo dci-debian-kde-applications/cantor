@@ -1,9 +1,13 @@
-cantor (4:4.8.4-2) UNRELEASED; urgency=low
+cantor (4:4.8.4-2) unstable; urgency=low
 
+  [ José Manuel Santamaría Lema ]
   * Architecture for cantor-backend-scilab changed from 'any' to 
-    'linux-any'.
+    'i386 amd64'.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 21 Jun 2012 21:35:14 +0200
+  [ Sune Vuorela ]
+  * Adapt some descriptions
+
+ -- Sune Vuorela <sune@debian.org>  Fri, 22 Jun 2012 09:04:26 +0200
 
 cantor (4:4.8.4-1) experimental; urgency=low
 
