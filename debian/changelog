@@ -1,9 +1,9 @@
-cantor (4:4.11.3-1) UNRELEASED; urgency=low
+cantor (4:4.11.3-1) unstable; urgency=low
 
   * New upstream release.
   * Update build dependencies.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 14:27:36 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 15:24:01 +0100
 
 cantor (4:4.11.2-1) experimental; urgency=low
 
