@@ -2,6 +2,7 @@ cantor (4:4.11.3-2) UNRELEASED; urgency=low
 
   * Drop kalgebra dependency, thanks to Rohan Garg. (Closes: #729496)
   * Enable build failures on missing symbols.
+  * Add autopkgtest.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Nov 2013 19:49:08 +0100
 
