@@ -4,6 +4,9 @@ cantor (4:4.11.3-2) UNRELEASED; urgency=low
   * Enable build failures on missing symbols.
   * Add autopkgtest.
   * New patch: maxima_backend_ps_file
+  * New patch: testmaxima_inforeq_test
+  * Disable testInformationRequest in maxima backend, as maxima is not
+    honouring prompt-* vars.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Nov 2013 19:49:08 +0100
 
