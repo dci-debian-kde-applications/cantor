@@ -2,17 +2,20 @@ Source: cantor
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <sune@debian.org>,
-           Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11), libanalitza-dev (>= 4:4.11),
- pkg-config,
- libspectre-dev,
- r-base-core,
- libblas3gf,
- liblapack3gf,
- libqalculate-dev, libglib2.0-dev
+Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libanalitza-dev (>= 4:4.11),
+               libblas3gf,
+               libglib2.0-dev,
+               liblapack3gf,
+               libqalculate-dev,
+               libspectre-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.12),
+               r-base-core
 Standards-Version: 3.9.5
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/cantor.git
@@ -21,11 +24,14 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/cantor.git
 Package: cantor
 Architecture: any
 Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: cantor-backend-kalgebra, texlive-latex-base, texlive-binaries
-Suggests: cantor-backend-maxima, cantor-backend-r, cantor-backend-sage,
- cantor-backend-octave, cantor-backend-qalculate,
- cantor-backend-scilab [i386 amd64]
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: cantor-backend-kalgebra, texlive-binaries, texlive-latex-base
+Suggests: cantor-backend-maxima,
+          cantor-backend-octave,
+          cantor-backend-qalculate,
+          cantor-backend-r,
+          cantor-backend-sage,
+          cantor-backend-scilab [i386 amd64]
 Description: interface for mathematical applications
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
@@ -47,7 +53,7 @@ Description: interface for mathematical applications
 Package: cantor-backend-kalgebra
 Architecture: any
 Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KAlgebra backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
@@ -62,7 +68,7 @@ Description: KAlgebra backend for Cantor
 Package: cantor-backend-maxima
 Architecture: any
 Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends}, maxima
+Depends: maxima, ${misc:Depends}, ${shlibs:Depends}
 Description: Maxima backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
@@ -77,7 +83,7 @@ Description: Maxima backend for Cantor
 Package: cantor-backend-octave
 Architecture: any
 Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends}, octave
+Depends: octave, ${misc:Depends}, ${shlibs:Depends}
 Description: Octave backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
@@ -92,7 +98,7 @@ Description: Octave backend for Cantor
 Package: cantor-backend-qalculate
 Architecture: any
 Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qalculate! backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
@@ -107,7 +113,7 @@ Description: Qalculate! backend for Cantor
 Package: cantor-backend-r
 Architecture: any
 Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends}, r-base-core
+Depends: r-base-core, ${misc:Depends}, ${shlibs:Depends}
 Suggests: r-base-html
 Description: R backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
@@ -123,7 +129,7 @@ Description: R backend for Cantor
 Package: cantor-backend-sage
 Architecture: any
 Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: sagemath
 Description: Sage backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
@@ -140,9 +146,9 @@ Description: Sage backend for Cantor
  This package is part of the KDE education module.
 
 Package: cantor-backend-scilab
-Architecture: i386 amd64
+Architecture: amd64 i386
 Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends}, scilab-cli
+Depends: scilab-cli, ${misc:Depends}, ${shlibs:Depends}
 Description: Scilab backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
@@ -158,7 +164,7 @@ Package: cantor-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: ${misc:Depends}, cantor (= ${binary:Version})
+Depends: cantor (= ${binary:Version}), ${misc:Depends}
 Breaks: kdeedu-dbg (<< 4:4.6.80)
 Replaces: kdeedu-dbg (<< 4:4.6.80)
 Description: debugging symbols for cantor

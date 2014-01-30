@@ -33,6 +33,7 @@ usr/share/kde4/apps/cantor/cantor_eigenvalues_assistant.rc
 usr/share/kde4/apps/cantor/cantor_eigenvectors_assistant.rc
 usr/share/kde4/apps/cantor/cantor_integrate_assistant.rc
 usr/share/kde4/apps/cantor/cantor_invert_matrix_assistant.rc
+usr/share/kde4/apps/cantor/cantor_part.rc
 usr/share/kde4/apps/cantor/cantor_plot2d_assistant.rc
 usr/share/kde4/apps/cantor/cantor_plot3d_assistant.rc
 usr/share/kde4/apps/cantor/cantor_runscript_assistant.rc
@@ -40,7 +41,6 @@ usr/share/kde4/apps/cantor/cantor_scripteditor.rc
 usr/share/kde4/apps/cantor/cantor_shell.rc
 usr/share/kde4/apps/cantor/cantor_solve_assistant.rc
 usr/share/kde4/apps/cantor/xslt/latex.xsl
-usr/share/kde4/apps/cantor/cantor_part.rc
 usr/share/kde4/config.kcfg/cantor.kcfg
 usr/share/kde4/config.kcfg/cantor_libs.kcfg
 usr/share/kde4/config/cantor.knsrc
