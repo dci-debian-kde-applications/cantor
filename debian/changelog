@@ -1,4 +1,4 @@
-cantor (4:4.11.3-2) UNRELEASED; urgency=low
+cantor (4:4.12.2-1) UNRELEASED; urgency=low
 
   * Drop kalgebra dependency, thanks to Rohan Garg. (Closes: #729496)
   * Enable build failures on missing symbols.
@@ -7,8 +7,9 @@ cantor (4:4.11.3-2) UNRELEASED; urgency=low
   * New patch: testmaxima_inforeq_test
   * Disable testInformationRequest in maxima backend, as maxima is not
     honouring prompt-* vars.
+  * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Nov 2013 19:49:08 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 22:20:03 +0100
 
 cantor (4:4.11.3-1) unstable; urgency=low
 
