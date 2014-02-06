@@ -5,6 +5,7 @@ usr/lib/kde4/cantor_differentiateassistant.so
 usr/lib/kde4/cantor_eigenvaluesassistant.so
 usr/lib/kde4/cantor_eigenvectorsassistant.so
 usr/lib/kde4/cantor_helppanelplugin.so
+usr/lib/kde4/cantor_importpackageassistant.so
 usr/lib/kde4/cantor_integrateassistant.so
 usr/lib/kde4/cantor_invertmatrixassistant.so
 usr/lib/kde4/cantor_nullbackend.so
@@ -31,6 +32,7 @@ usr/share/kde4/apps/cantor/cantor_create_matrix_assistant.rc
 usr/share/kde4/apps/cantor/cantor_differentiate_assistant.rc
 usr/share/kde4/apps/cantor/cantor_eigenvalues_assistant.rc
 usr/share/kde4/apps/cantor/cantor_eigenvectors_assistant.rc
+usr/share/kde4/apps/cantor/cantor_import_package_assistant.rc
 usr/share/kde4/apps/cantor/cantor_integrate_assistant.rc
 usr/share/kde4/apps/cantor/cantor_invert_matrix_assistant.rc
 usr/share/kde4/apps/cantor/cantor_part.rc
@@ -51,6 +53,7 @@ usr/share/kde4/services/cantor/differentiateassistant.desktop
 usr/share/kde4/services/cantor/eigenvaluesassistant.desktop
 usr/share/kde4/services/cantor/eigenvectorsassistant.desktop
 usr/share/kde4/services/cantor/helppanelplugin.desktop
+usr/share/kde4/services/cantor/importpackageassistant.desktop
 usr/share/kde4/services/cantor/integrateassistant.desktop
 usr/share/kde4/services/cantor/invertmatrixassistant.desktop
 usr/share/kde4/services/cantor/nullbackend.desktop

@@ -9,6 +9,7 @@ cantor (4:4.12.2-1) UNRELEASED; urgency=low
     honouring prompt-* vars.
   * New upstream release.
   * New cantor backend: cantor-backend-python2
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 22:20:03 +0100
 
