@@ -15,6 +15,7 @@ Build-Depends: cmake,
                libspectre-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
+               python2.7-dev,
                r-base-core
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
@@ -29,6 +30,7 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: cantor-backend-kalgebra, texlive-binaries, texlive-latex-base
 Suggests: cantor-backend-maxima,
           cantor-backend-octave,
+          cantor-backend-python2,
           cantor-backend-qalculate,
           cantor-backend-r,
           cantor-backend-sage,
@@ -46,6 +48,7 @@ Description: interface for mathematical applications
   * R Project for Statistical Computing (cantor-backend-r)
   * Sage Mathematics Software (cantor-backend-sage)
   * Octave (cantor-backend-octave)
+  * Python (cantor-backend-python2)
   * Scilab (cantor-backend-scilab)
   * Qalculate! (cantor-backend-qalculate)
  .
@@ -93,6 +96,21 @@ Description: Octave backend for Cantor
  .
  This package provides the backend for using the GNU Octave language for
  numerical computations (http://www.octave.org/) in Cantor.
+ .
+ This package is part of the KDE education module.
+
+Package: cantor-backend-python2
+Architecture: any
+Section: math
+Depends: python, ${misc:Depends}, ${shlibs:Depends}
+Description: Python backend for Cantor
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant worksheet interface. It provides dialogs
+ to assist with common tasks and allows you to share your worksheets
+ with others.
+ .
+ This package provides the backend for using the Python language
+ (http://www.python.org/) in Cantor.
  .
  This package is part of the KDE education module.
 
