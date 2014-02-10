@@ -1,4 +1,4 @@
-cantor (4:4.12.2-1) UNRELEASED; urgency=low
+cantor (4:4.12.2-1) experimental; urgency=low
 
   * Drop kalgebra dependency, thanks to Rohan Garg. (Closes: #729496)
   * Enable build failures on missing symbols.
@@ -12,7 +12,7 @@ cantor (4:4.12.2-1) UNRELEASED; urgency=low
   * Update install files.
   * Bump kde-sc-dev-latest build dependency.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 22:20:03 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:31:31 +0100
 
 cantor (4:4.11.3-1) unstable; urgency=low
 
