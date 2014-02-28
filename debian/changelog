@@ -1,3 +1,9 @@
+cantor (4:4.12.3-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 28 Feb 2014 23:22:53 +0100
+
 cantor (4:4.12.2-1) experimental; urgency=low
 
   * Drop kalgebra dependency, thanks to Rohan Garg. (Closes: #729496)
