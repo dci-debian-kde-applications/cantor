@@ -1,0 +1,13 @@
+Index: cantor/src/backends/octave/octavesession.cpp
+===================================================================
+--- cantor.orig/src/backends/octave/octavesession.cpp	2014-02-28 23:22:52.744066658 +0100
++++ cantor/src/backends/octave/octavesession.cpp	2014-03-01 21:44:52.763907526 +0100
+@@ -70,6 +70,8 @@
+     {
+         // Do not show the popup when plotting, rather only print to a file
+         args << "--eval";
++        args << "graphics_toolkit gnuplot;";
++        args << "--eval";
+         args << "set (0, \"defaultfigurevisible\",\"off\");";
+     }
+     else

@@ -1,6 +1,7 @@
 cantor (4:4.12.3-1~) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * New patch: octave_for_use_of_gnuplot
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 28 Feb 2014 23:27:50 +0100
 
