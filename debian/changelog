@@ -2,6 +2,9 @@ cantor (4:4.13.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Update analitza build-dep.
+  * Remove upstream applied patch: no_install_rpath_use_link_path.diff
+  * Remove upstream applied patch: maxima_backend_ps_file
+  * Refresh patches.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 19 May 2014 14:11:18 +0200
 

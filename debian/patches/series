@@ -1,4 +1,2 @@
 octave_force_use_of_gnuplot
-no_install_rpath_use_link_path.diff
-maxima_backend_ps_file
 testmaxima_inforeq_test
