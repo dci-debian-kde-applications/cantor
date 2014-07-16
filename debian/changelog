@@ -1,8 +1,8 @@
-cantor (4:4.13.2-1) UNRELEASED; urgency=medium
+cantor (4:4.13.3-1) UNRELEASED; urgency=medium
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Jul 2014 17:07:33 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Jul 2014 13:27:03 +0200
 
 cantor (4:4.13.1-1) unstable; urgency=medium
 
