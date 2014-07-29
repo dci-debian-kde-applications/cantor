@@ -1,6 +1,8 @@
 cantor (4:4.13.3-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update blas and lapack b-d. (Closes: #750782) Thanks to Sébastien
+    Villemot
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Jul 2014 13:27:03 +0200
 
