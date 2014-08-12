@@ -1,0 +1,17 @@
+Index: cantor/src/backends/maxima/maximasession.cpp
+===================================================================
+--- cantor.orig/src/backends/maxima/maximasession.cpp	2014-08-12 18:19:56.406941240 +0000
++++ cantor/src/backends/maxima/maximasession.cpp	2014-08-12 21:17:27.123704399 +0000
+@@ -222,6 +222,12 @@
+     QString out=m_process->readAllStandardOutput();
+ #endif
+ 
++    // maxima sends a \r when finishes processing it's input.
++    // wait for it, so we can process the multi line results.
++    if (!out.endsWith('\r') ) {
++        m_cache+=out;
++        return;
++    }
+     out.remove('\r');
+ 
+     kDebug()<<"out: "<<out;

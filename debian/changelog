@@ -3,6 +3,8 @@ cantor (4:4.13.3-2) UNRELEASED; urgency=medium
   * Remove patch: testmaxima_inforeq_test, maxima honours the prompts
     again.
   * New patch: maxima_multiresults
+  * New patch: acceptable_answers
+  * New patch: maxima_waiting_the_carriage
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Aug 2014 12:20:52 +0000
 
