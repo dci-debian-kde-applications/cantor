@@ -18,6 +18,7 @@ usr/lib/kde4/libcantorpart.so
 usr/lib/libcantor_config.so
 usr/lib/libcantorlibs.so.0.0.4
 usr/lib/libcantorlibs.so.1
+usr/share/appdata/cantor.appdata.xml
 usr/share/applications/kde4/cantor.desktop
 usr/share/doc/kde/HTML/en/cantor/common
 usr/share/doc/kde/HTML/en/cantor/index.cache.bz2
