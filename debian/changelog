@@ -1,10 +1,10 @@
-cantor (4:4.14.0-1) UNRELEASED; urgency=medium
+cantor (4:4.14.0-1) unstable; urgency=medium
 
   * New upstream release.
   * Update install files.
   * Refresh patches.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Aug 2014 18:32:30 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 21:58:28 +0200
 
 cantor (4:4.13.3-2) unstable; urgency=medium
 
