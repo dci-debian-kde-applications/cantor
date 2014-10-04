@@ -13,6 +13,7 @@ Build-Depends: cmake,
                liblapack3,
                libqalculate-dev,
                libspectre-dev,
+               libluajit-5.1-dev [i386 amd64],
                pkg-config,
                pkg-kde-tools (>= 0.12),
                python2.7-dev,
@@ -34,7 +35,8 @@ Suggests: cantor-backend-maxima,
           cantor-backend-qalculate,
           cantor-backend-r,
           cantor-backend-sage,
-          cantor-backend-scilab [i386 amd64]
+          cantor-backend-scilab [i386 amd64],
+          cantor-backend-lua [i386 amd64],
 Description: interface for mathematical applications
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
@@ -51,6 +53,7 @@ Description: interface for mathematical applications
   * Python (cantor-backend-python2)
   * Scilab (cantor-backend-scilab)
   * Qalculate! (cantor-backend-qalculate)
+  * Lua (cantor-backend-lua)
  .
  This package is part of the KDE education module.
 
@@ -176,6 +179,21 @@ Description: Scilab backend for Cantor
  .
  This package provides the backend for using the Scilab scientific software
  package for numerical computations (http://www.scilab.org) in Cantor.
+ .
+ This package is part of the KDE education module.
+
+Package: cantor-backend-lua
+Architecture: amd64 i386
+Section: math
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Lua backend for Cantor
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant worksheet interface. It provides dialogs
+ to assist with common tasks and allows you to share your worksheets
+ with others.
+ .
+ This package provides the backend for using the Lua language
+ (http://www.lua.org) in Cantor.
  .
  This package is part of the KDE education module.
 
