@@ -1,6 +1,6 @@
 usr/lib/kde4/cantor_python2backend.so
 usr/share/icons/hicolor/*/apps/pythonbackend.png
 usr/share/kde4/apps/cantor/python2backend/keywords.xml
-usr/share/kde4/config/cantor_python2.knsrc
 usr/share/kde4/config.kcfg/python2backend.kcfg
+usr/share/kde4/config/cantor_python2.knsrc
 usr/share/kde4/services/cantor/python2backend.desktop
