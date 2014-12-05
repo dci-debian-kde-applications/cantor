@@ -1,12 +1,13 @@
-cantor (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
+cantor (4:14.11.97-0ubuntu1~ubuntu15.04~ppa2) vivid; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release candidate
 
   [ Jonathan Riddell ]
   * Tidy up debian/copyright
+  * PPA build
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 02 Dec 2014 09:53:39 -0800
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Dec 2014 11:52:32 +0100
 
 cantor (4:14.11.95-0ubuntu2) vivid; urgency=medium
 
