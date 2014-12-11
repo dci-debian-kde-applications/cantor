@@ -1,3 +1,9 @@
+cantor (4:14.12.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 11 Dec 2014 15:19:21 -0800
+
 cantor (4:14.11.97-0ubuntu2) vivid; urgency=medium
 
   * Remove kalgebra backend, needs porting to Qt 5 for new libanalitza
