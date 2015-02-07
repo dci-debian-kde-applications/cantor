@@ -32,8 +32,7 @@ Recommends: cantor-backend-qalculate, texlive-binaries, texlive-latex-base
 Suggests: cantor-backend-lua [i386 amd64],
           cantor-backend-maxima,
           cantor-backend-octave,
-          cantor-backend-python2,
-          cantor-backend-qalculate,
+          cantor-backend-python2,  
           cantor-backend-r,
           cantor-backend-sage,
           cantor-backend-scilab [i386 amd64]
