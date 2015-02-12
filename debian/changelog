@@ -1,8 +1,12 @@
 cantor (4:14.12.2-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
   * Remove weaker suggests cantor-backend-qalculate, as
     it is already a recommends. 
+
+  [ Harald Sitter ]
+  * Add python-numpy to tests dependencies, should fix python test
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 05 Feb 2015 20:49:17 +0000
 
