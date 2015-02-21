@@ -9,6 +9,9 @@ cantor (4:14.12.2-1~) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * Add python-numpy to tests dependencies, should fix python test
 
+  [ Maximiliano Curia ]
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 05 Feb 2015 20:49:17 +0000
 
 cantor (4:14.12.0-0ubuntu1) vivid; urgency=medium

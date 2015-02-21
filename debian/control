@@ -7,7 +7,6 @@ Build-Depends: cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev,
-               libanalitza-dev (>= 4:14.12.2),
                libblas3,
                libglib2.0-dev,
                liblapack3,
@@ -18,11 +17,13 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.12),
                python2.7-dev,
                r-base-core
-Standards-Version: 3.9.5
+# Already ported to qt5
+#               libanalitza-dev (>= 4:14.12.2),
+Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://edu.kde.org/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/cantor.git/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/cantor.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/cantor.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/cantor.git
 
 Package: cantor
 Architecture: any
@@ -32,7 +33,7 @@ Recommends: cantor-backend-qalculate, texlive-binaries, texlive-latex-base
 Suggests: cantor-backend-lua [i386 amd64],
           cantor-backend-maxima,
           cantor-backend-octave,
-          cantor-backend-python2,  
+          cantor-backend-python2,
           cantor-backend-r,
           cantor-backend-sage,
           cantor-backend-scilab [i386 amd64]
