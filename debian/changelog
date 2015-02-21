@@ -1,16 +1,10 @@
 cantor (4:14.12.2-1~) UNRELEASED; urgency=medium
 
-  * New upstream release (4.14.3).
   * New upstream release (14.12.2).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 21 Feb 2015 07:58:31 +0100
-
-cantor (4:14.12.2-0ubuntu1) UNRELEASED; urgency=medium
-
   [ Scarlett Clark ]
-  * New upstream release
   * Remove weaker suggests cantor-backend-qalculate, as
-    it is already a recommends. 
+    it is already a recommends.
 
   [ Harald Sitter ]
   * Add python-numpy to tests dependencies, should fix python test
@@ -42,8 +36,8 @@ cantor (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 cantor (4:14.11.95-0ubuntu2) vivid; urgency=medium
 
-  * Fix Watch file applications locations 
-  * Fix VCS for new kde-applications location 
+  * Fix Watch file applications locations
+  * Fix VCS for new kde-applications location
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 24 Nov 2014 08:22:03 -0800
 
@@ -673,4 +667,3 @@ cantor (4:4.6.90+repack1-0ubuntu1) oneiric; urgency=low
   * Repack to add missing COPYING files
 
  -- Philip Muškovac <yofel@kubuntu.org>  Thu, 30 Jun 2011 07:55:47 +0200
-
