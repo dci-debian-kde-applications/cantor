@@ -1,4 +1,4 @@
-usr/lib/kde4/cantor_luabackend.so
+usr/lib/*/qt5/plugins/cantor_luabackend.so
 usr/share/icons/hicolor/48x48/apps/luabackend.png
-usr/share/kde4/config.kcfg/luabackend.kcfg
-usr/share/kde4/services/cantor/luabackend.desktop
+usr/share/config.kcfg/luabackend.kcfg
+usr/share/kservices5/cantor/luabackend.desktop
