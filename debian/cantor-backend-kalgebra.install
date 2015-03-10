@@ -1,4 +1,4 @@
+etc/xdg/cantor_kalgebra.knsrc
 usr/lib/*/qt5/plugins/cantor_kalgebrabackend.so
 usr/share/config.kcfg/kalgebrabackend.kcfg
-etc/xdg/cantor_kalgebra.knsrc
 usr/share/kservices5/cantor/kalgebrabackend.desktop

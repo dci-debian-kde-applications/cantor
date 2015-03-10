@@ -1,6 +1,6 @@
+etc/xdg/cantor_sage.knsrc
 usr/lib/*/qt5/plugins/cantor_sagebackend.so
-usr/share/icons/hicolor/48x48/apps/sagebackend.png
 usr/share/cantor/sagebackend/keywords.xml
 usr/share/config.kcfg/sagebackend.kcfg
-etc/xdg/cantor_sage.knsrc
+usr/share/icons/hicolor/48x48/apps/sagebackend.png
 usr/share/kservices5/cantor/sagebackend.desktop

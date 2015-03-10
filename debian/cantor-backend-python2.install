@@ -1,4 +1,4 @@
+etc/xdg/cantor_python2.knsrc
 usr/lib/*/qt5/plugins/cantor_python2backend.so
 usr/share/config.kcfg/python2backend.kcfg
-etc/xdg/cantor_python2.knsrc
 usr/share/kservices5/cantor/python2backend.desktop
