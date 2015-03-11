@@ -1,0 +1,2 @@
+libcantor-pythonbackend: shlib-without-versioned-soname usr/lib/*/libcantor_pythonbackend.so
+libcantor-pythonbackend: postinst-must-call-ldconfig usr/lib/*/libcantor_pythonbackend.so
