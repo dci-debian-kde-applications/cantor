@@ -1,18 +1,11 @@
 etc/xdg/cantor.knsrc
-etc/xdg/cantor_lua.knsrc
-etc/xdg/cantor_octave.knsrc
-etc/xdg/cantor_qalculate.knsrc
-etc/xdg/cantor_scilab.knsrc
 usr/bin/cantor
 usr/lib/*/libcantor_config.so
-usr/lib/*/libcantorlibs.so.0.0.4
-usr/lib/*/libcantorlibs.so.1
 usr/lib/*/qt5/plugins/cantor_advancedplotassistant.so
 usr/lib/*/qt5/plugins/cantor_creatematrixassistant.so
 usr/lib/*/qt5/plugins/cantor_differentiateassistant.so
 usr/lib/*/qt5/plugins/cantor_eigenvaluesassistant.so
 usr/lib/*/qt5/plugins/cantor_eigenvectorsassistant.so
-usr/lib/*/qt5/plugins/cantor_helppanelplugin.so
 usr/lib/*/qt5/plugins/cantor_importpackageassistant.so
 usr/lib/*/qt5/plugins/cantor_integrateassistant.so
 usr/lib/*/qt5/plugins/cantor_invertmatrixassistant.so
@@ -39,7 +32,6 @@ usr/share/cantor/cantor_runscript_assistant.rc
 usr/share/cantor/cantor_solve_assistant.rc
 usr/share/cantor/xslt/latex.xsl
 usr/share/config.kcfg/cantor.kcfg
-usr/share/config.kcfg/cantor_libs.kcfg
 usr/share/doc/HTML/en/cantor/index.cache.bz2
 usr/share/doc/HTML/en/cantor/index.docbook
 usr/share/doc/HTML/en/cantor/latex_formula.png
@@ -51,7 +43,6 @@ usr/share/kservices5/cantor/creatematrixassistant.desktop
 usr/share/kservices5/cantor/differentiateassistant.desktop
 usr/share/kservices5/cantor/eigenvaluesassistant.desktop
 usr/share/kservices5/cantor/eigenvectorsassistant.desktop
-usr/share/kservices5/cantor/helppanelplugin.desktop
 usr/share/kservices5/cantor/importpackageassistant.desktop
 usr/share/kservices5/cantor/integrateassistant.desktop
 usr/share/kservices5/cantor/invertmatrixassistant.desktop
@@ -62,8 +53,6 @@ usr/share/kservices5/cantor/runscriptassistant.desktop
 usr/share/kservices5/cantor/solveassistant.desktop
 usr/share/kservices5/cantor/variablemanagerplugin.desktop
 usr/share/kservicetypes5/cantor_assistant.desktop
-usr/share/kservicetypes5/cantor_backend.desktop
-usr/share/kservicetypes5/cantor_panelplugin.desktop
 usr/share/kxmlgui5/cantor/cantor_part.rc
 usr/share/kxmlgui5/cantor/cantor_scripteditor.rc
 usr/share/kxmlgui5/cantor/cantor_shell.rc

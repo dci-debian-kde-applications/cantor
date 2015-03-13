@@ -63,9 +63,12 @@ Homepage: http://edu.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/cantor.git/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/cantor.git
 
-Package: cantor
+Package: libcantorlibs1
+Section: libs
 Architecture: any
-Section: math
+Multi-Arch: same
+Breaks: cantor
+Replaces: cantor
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: cantor-backend-qalculate, texlive-binaries, texlive-latex-base
 Suggests: cantor-backend-kalgebra,
@@ -77,6 +80,30 @@ Suggests: cantor-backend-kalgebra,
           cantor-backend-r,
           cantor-backend-sage,
           cantor-backend-scilab [i386 amd64]
+Description: interface for mathematical applications - library files
+ Cantor is a library allow you to you use your favorite mathematical
+ applications.
+ .
+ This package contains the actual library files.
+ .
+ This package is part of the KDE education module.
+
+Package: libcantorlibs-dev
+Section: libdevel
+Architecture: any
+Depends: libcantorlibs1 (= ${binary:Version}), ${misc:Depends}
+Description: interface for mathematical applications - development files
+ Cantor is a library allow you to you use your favorite mathematical
+ applications.
+ .
+ This package contains development files.
+ .
+ This package is part of the KDE education module.
+
+Package: cantor
+Architecture: any
+Section: math
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: interface for mathematical applications
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
