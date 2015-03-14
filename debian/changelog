@@ -1,7 +1,8 @@
-cantor (4:14.12.3-0ubuntu1) UNRELEASED; urgency=medium
+cantor (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release.
-  
+  * Release to vivid
+
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 11 Mar 2015 14:52:09 -0700
 
 cantor (4:14.12.2-0ubuntu1) UNRELEASED; urgency=medium
