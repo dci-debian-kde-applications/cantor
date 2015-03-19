@@ -5,8 +5,8 @@ etc/xdg/cantor_qalculate.knsrc
 etc/xdg/cantor_scilab.knsrc
 usr/bin/cantor
 usr/lib/*/libcantor_config.so
-usr/lib/*/libcantorlibs.so.0.0.4
-usr/lib/*/libcantorlibs.so.1
+usr/lib/*/libcantorlibs.so.0.*
+usr/lib/*/libcantorlibs.so.6
 usr/lib/*/qt5/plugins/cantor_advancedplotassistant.so
 usr/lib/*/qt5/plugins/cantor_creatematrixassistant.so
 usr/lib/*/qt5/plugins/cantor_differentiateassistant.so

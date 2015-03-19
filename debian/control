@@ -96,7 +96,6 @@ Description: interface for mathematical applications
  .
  This package is part of the KDE education module.
 
-# Need ported to Qt 5 for new libanalitza
 Package: cantor-backend-kalgebra
 Architecture: any
 Section: math
