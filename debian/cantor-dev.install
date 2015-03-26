@@ -1,10 +1,10 @@
-sr/include/cantor/defaultvariablemodel.h
 usr/include/cantor/animationresult.h
 usr/include/cantor/backend.h
 usr/include/cantor/cantor_export.h
 usr/include/cantor/cantor_macros.h
 usr/include/cantor/completionobject.h
 usr/include/cantor/defaulthighlighter.h
+usr/include/cantor/defaultvariablemodel.h
 usr/include/cantor/epsresult.h
 usr/include/cantor/expression.h
 usr/include/cantor/extension.h
