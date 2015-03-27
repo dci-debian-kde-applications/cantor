@@ -17,3 +17,4 @@
 ./usr/include/cantor/session.h
 ./usr/include/cantor/syntaxhelpobject.h
 ./usr/include/cantor/textresult.h
+./usr/share/kde4/config/cantor_kalgebra.knsrc
