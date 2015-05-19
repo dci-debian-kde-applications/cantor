@@ -3,22 +3,32 @@ Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
+               extra-cmake-modules (>= 1.1.0~),
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev,
                libblas3,
                libglib2.0-dev,
+               libkf5archive-dev,
+               libkf5config-dev,
+               libkf5coreaddons-dev,
+               libkf5kdelibs4support-dev,
+               libkf5newstuff-dev,
+               libkf5parts-dev,
+               libkf5pty-dev,
+               libkf5texteditor-dev,
                liblapack3,
                libluajit-5.1-dev [i386 amd64],
                libqalculate-dev,
+               libqt5svg5-dev,
+               libqt5xmlpatterns5-dev,
                libspectre-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
                python2.7-dev,
+               qtbase5-dev,
                r-base-core
-# Already ported to qt5
-#               libanalitza-dev (>= 4:14.12.2),
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://edu.kde.org/
@@ -55,22 +65,6 @@ Description: interface for mathematical applications
   * Lua (cantor-backend-lua)
  .
  This package is part of the KDE education module.
-
-# Need ported to Qt 5 for new libanalitza
-#Package: cantor-backend-kalgebra
-#Architecture: any
-#Section: math
-#Depends: ${misc:Depends}, ${shlibs:Depends}
-#Description: KAlgebra backend for Cantor
-# Cantor is an application to allow you to you use your favorite mathematical
-# applications from within an elegant worksheet interface. It provides dialogs
-# to assist with common tasks and allows you to share your worksheets
-# with others.
-# .
-# This package provides the backend for using KAlgebra
-# (http://edu.kde.org/kalgebra) in Cantor.
-# .
-# This package is part of the KDE education module.
 
 Package: cantor-backend-maxima
 Architecture: any
