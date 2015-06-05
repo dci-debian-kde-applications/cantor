@@ -1,9 +1,10 @@
-cantor (4:15.04.1-1~) UNRELEASED; urgency=medium
+cantor (4:15.04.2-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.04.0).
   * New upstream release (15.04.1).
+  * New upstream release (15.04.2).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 18 May 2015 14:35:46 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:29:31 +0200
 
 cantor (4:14.12.3-1) experimental; urgency=medium
 
