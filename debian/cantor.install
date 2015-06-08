@@ -23,7 +23,7 @@ usr/lib/*/qt5/plugins/cantor_runscriptassistant.so
 usr/lib/*/qt5/plugins/cantor_solveassistant.so
 usr/lib/*/qt5/plugins/cantor_variablemanagerplugin.so
 usr/lib/*/qt5/plugins/libcantorpart.so
-usr/share/appdata/cantor.appdata.xml
+usr/share/appdata/org.kde.cantor.appdata.xml
 usr/share/applications/org.kde.cantor.desktop
 usr/share/cantor/cantor_advancedplot_assistant.rc
 usr/share/cantor/cantor_create_matrix_assistant.rc

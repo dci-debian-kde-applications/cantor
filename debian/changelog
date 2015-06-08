@@ -2,13 +2,11 @@ cantor (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
-  * New upstream release
-  * Vivid backport
 
   [ Jonathan Riddell ]
-  * New upstream release
+  * PPA build
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 00:39:35 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 00:39:51 +0200
 
 cantor (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
