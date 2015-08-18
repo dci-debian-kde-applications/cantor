@@ -1,9 +1,9 @@
-cantor (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
+cantor (4:15.07.90-0ubuntu1) wily; urgency=medium
 
   * New upstream release
   * PPA build
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 17:45:04 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 08:57:01 +0100
 
 cantor (4:15.04.2-0ubuntu1) wily; urgency=medium
 
