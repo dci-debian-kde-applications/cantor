@@ -1,5 +1,5 @@
 etc/xdg/cantor_maxima.knsrc
-usr/lib/*/qt5/plugins/cantor_maximabackend.so
+usr/lib/*/qt5/plugins/cantor/backends/cantor_maximabackend.so
 usr/share/cantor/maximabackend/cantor-initmaxima.lisp
 usr/share/cantor/maximabackend/keywords.xml
 usr/share/config.kcfg/maximabackend.kcfg
