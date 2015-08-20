@@ -3,4 +3,3 @@ usr/lib/*/qt5/plugins/cantor/backends/cantor_sagebackend.so
 usr/share/cantor/sagebackend/keywords.xml
 usr/share/config.kcfg/sagebackend.kcfg
 usr/share/icons/hicolor/48x48/apps/sagebackend.png
-usr/share/kservices5/cantor/sagebackend.desktop
