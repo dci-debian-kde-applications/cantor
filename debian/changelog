@@ -1,3 +1,11 @@
+cantor (4:4.14.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Add libsoprano-dev to build-depends since it is no longer transitively
+    pulled in
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 28 Aug 2015 16:54:15 -0400
+
 cantor (4:4.14.2-2) unstable; urgency=medium
 
   [ Pino Toscano ]
