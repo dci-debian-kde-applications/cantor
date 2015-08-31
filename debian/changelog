@@ -4,12 +4,37 @@ cantor (4:15.08.0-0ubuntu1) wily; urgency=medium
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 26 Aug 2015 16:55:17 +0100
 
+cantor (4:15.07.90-0ubuntu2) wily; urgency=medium
+
+  * Fix packaging for architectures without luajit.
+    Changed dropped from 4:15.07.90-0ubuntu1.
+
+ -- Matthias Klose <doko@ubuntu.com>  Mon, 31 Aug 2015 20:56:47 +0200
+
 cantor (4:15.07.90-0ubuntu1) wily; urgency=medium
 
   * New upstream release
   * PPA build
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 08:57:01 +0100
+
+cantor (4:15.04.2-0ubuntu4) wily; urgency=medium
+
+  * No-change rebuild against libqalculate5v5.
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Tue, 11 Aug 2015 15:27:58 +0200
+
+cantor (4:15.04.2-0ubuntu3) wily; urgency=medium
+
+  * Fix packaging for architectures without luajit.
+
+ -- Matthias Klose <doko@ubuntu.com>  Wed, 10 Jun 2015 13:26:16 +0200
+
+cantor (4:15.04.2-0ubuntu2) wily; urgency=medium
+
+  * Fix build failure for R versions >= 3.2.
+
+ -- Matthias Klose <doko@ubuntu.com>  Wed, 10 Jun 2015 12:42:23 +0200
 
 cantor (4:15.04.2-0ubuntu1) wily; urgency=medium
 
