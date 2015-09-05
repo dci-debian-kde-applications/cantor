@@ -23,7 +23,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libqt5xmlpatterns5-dev (>= 5.4),
                libspectre-dev,
                pkg-config,
-               pkg-kde-tools (>> 0.15.15)
+               pkg-kde-tools (>> 0.15.15),
                python-dev,
                python3-dev,
                qtbase5-dev (>= 5.4),
