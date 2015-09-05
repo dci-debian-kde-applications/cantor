@@ -1,8 +1,8 @@
 Index: cantor/src/backends/maxima/maximaexpression.cpp
 ===================================================================
---- cantor.orig/src/backends/maxima/maximaexpression.cpp	2014-08-12 15:58:36.953986588 +0000
-+++ cantor/src/backends/maxima/maximaexpression.cpp	2014-08-12 15:58:56.606499738 +0000
-@@ -485,7 +485,12 @@
+--- cantor.orig/src/backends/maxima/maximaexpression.cpp	2015-09-06 00:28:01.256439764 +0200
++++ cantor/src/backends/maxima/maximaexpression.cpp	2015-09-06 00:28:01.236440571 +0200
+@@ -481,7 +481,12 @@
                  {
                      //if we got an error message, but also a result, lets just+
                      //assume that it was just a warning, as obviously something worked
