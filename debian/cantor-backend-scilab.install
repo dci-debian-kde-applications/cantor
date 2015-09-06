@@ -1,4 +1,4 @@
-usr/lib/kde4/cantor_scilabbackend.so
+usr/lib/*/qt5/plugins/cantor_scilabbackend.so
+usr/share/config.kcfg/scilabbackend.kcfg
 usr/share/icons/hicolor/48x48/apps/scilabbackend.png
-usr/share/kde4/config.kcfg/scilabbackend.kcfg
-usr/share/kde4/services/cantor/scilabbackend.desktop
+usr/share/kservices5/cantor/scilabbackend.desktop

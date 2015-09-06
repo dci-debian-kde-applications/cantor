@@ -6,7 +6,7 @@ Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.7.0~),
-               kde-sc-dev-latest (>= 4:4.12),
+               libanalitza-dev,
                libglib2.0-dev,
                libkf5archive-dev,
                libkf5config-dev,
@@ -38,10 +38,12 @@ Architecture: any
 Section: math
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: cantor-backend-qalculate, texlive-binaries, texlive-latex-base
-Suggests: cantor-backend-lua [i386 amd64],
+Suggests: cantor-backend-kalgebra,
+          cantor-backend-lua [i386 amd64],
           cantor-backend-maxima,
           cantor-backend-octave,
           cantor-backend-python2,
+          cantor-backend-python3,
           cantor-backend-r,
           cantor-backend-sage,
           cantor-backend-scilab [i386 amd64]
@@ -57,10 +59,50 @@ Description: interface for mathematical applications
   * R Project for Statistical Computing (cantor-backend-r)
   * Sage Mathematics Software (cantor-backend-sage)
   * Octave (cantor-backend-octave)
-  * Python (cantor-backend-python2)
+  * Python (cantor-backend-python2 and cantor-backend-python3)
   * Scilab (cantor-backend-scilab)
   * Qalculate! (cantor-backend-qalculate)
   * Lua (cantor-backend-lua)
+ .
+ This package is part of the KDE education module.
+
+Package: cantor-dev
+Architecture: any
+Section: libdevel
+Depends: cantor (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Description: interface for mathematical applications - development files
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant worksheet interface. It provides dialogs
+ to assist with common tasks and allows you to share your worksheets
+ with others.
+ .
+ Cantor supports various mathematical applications as backends (provided in
+ external packages):
+  * Maxima Computer Algebra System (cantor-backend-maxima)
+  * R Project for Statistical Computing (cantor-backend-r)
+  * Sage Mathematics Software (cantor-backend-sage)
+  * Octave (cantor-backend-octave)
+  * Python (cantor-backend-python2 and cantor-backend-python3)
+  * Scilab (cantor-backend-scilab)
+  * Qalculate! (cantor-backend-qalculate)
+  * Lua (cantor-backend-lua)
+ .
+ This package is part of the KDE education module.
+ .
+ This package contains development files for cantor.
+
+Package: cantor-backend-kalgebra
+Architecture: any
+Section: math
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KAlgebra backend for Cantor
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant worksheet interface. It provides dialogs
+ to assist with common tasks and allows you to share your worksheets
+ with others.
+ .
+ This package provides the backend for using KAlgebra
+ (http://edu.kde.org/kalgebra) in Cantor.
  .
  This package is part of the KDE education module.
 
@@ -94,19 +136,47 @@ Description: Octave backend for Cantor
  .
  This package is part of the KDE education module.
 
-Package: cantor-backend-python2
+Package: libcantor-pythonbackend
 Architecture: any
 Section: math
-Breaks: cantor-backend-python (<< 4:4.13.0-0ubuntu2~)
-Replaces: cantor-backend-python (<< 4:4.13.0-0ubuntu2~)
-Depends: python, ${misc:Depends}, ${shlibs:Depends}
-Description: Python backend for Cantor
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Base Python backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
  to assist with common tasks and allows you to share your worksheets
  with others.
  .
  This package provides the backend for using the Python language
+ (http://www.python.org/) in Cantor.
+ .
+ This package is part of the KDE education module.
+
+Package: cantor-backend-python2
+Architecture: any
+Section: math
+Depends: python, ${misc:Depends}, ${shlibs:Depends}
+Description: Python2 backend for Cantor
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant worksheet interface. It provides dialogs
+ to assist with common tasks and allows you to share your worksheets
+ with others.
+ .
+ This package provides the backend for using the Python2 language
+ (http://www.python.org/) in Cantor.
+ .
+ This package is part of the KDE education module.
+
+Package: cantor-backend-python3
+Architecture: any
+Section: math
+Depends: python3, ${misc:Depends}, ${shlibs:Depends}
+Description: Python3 backend for Cantor
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant worksheet interface. It provides dialogs
+ to assist with common tasks and allows you to share your worksheets
+ with others.
+ .
+ This package provides the backend for using the Python3 language
  (http://www.python.org/) in Cantor.
  .
  This package is part of the KDE education module.
