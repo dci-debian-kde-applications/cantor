@@ -6,7 +6,7 @@ Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.7.0~),
-               libanalitza-dev,
+               libanalitza-dev (>> 4:15.08),
                libglib2.0-dev,
                libkf5archive-dev,
                libkf5config-dev,
