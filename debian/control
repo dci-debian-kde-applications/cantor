@@ -280,6 +280,8 @@ Package: cantor-backend-lua
 Architecture: amd64 i386
 Section: math
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: cantor (<< 4:15.08.0+git20150909)
+Replaces: cantor (<< 4:15.08.0+git20150909)
 Description: Lua backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
