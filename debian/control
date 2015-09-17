@@ -24,7 +24,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libspectre-dev,
                pkg-config,
                pkg-kde-tools (>> 0.15.15),
-               python-dev,
+               python-dev (>= 2.7~),
                python3-dev,
                qtbase5-dev (>= 5.4),
                r-base-core
