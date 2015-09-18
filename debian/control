@@ -156,7 +156,10 @@ Description: Base Python backend for Cantor
 Package: cantor-backend-python2
 Architecture: any
 Section: math
-Depends: python, ${misc:Depends}, ${shlibs:Depends}
+Depends: libcantor-pythonbackend (= ${binary:Version}),
+         python,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Python2 backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
@@ -171,7 +174,10 @@ Description: Python2 backend for Cantor
 Package: cantor-backend-python3
 Architecture: any
 Section: math
-Depends: python3, ${misc:Depends}, ${shlibs:Depends}
+Depends: libcantor-pythonbackend (= ${binary:Version}),
+         python3,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Python3 backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
