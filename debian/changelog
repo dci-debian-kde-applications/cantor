@@ -1,8 +1,8 @@
-cantor (4:15.08.1-1~) UNRELEASED; urgency=medium
+cantor (4:15.08.1-1) experimental; urgency=medium
 
   * New upstream release (15.08.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Sep 2015 19:41:26 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 03:16:19 +0200
 
 cantor (4:15.08.0-1) experimental; urgency=medium
 
