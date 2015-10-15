@@ -14,15 +14,15 @@ Reviewed-by: Rohan Garg <rohan@kde.org>
 ---
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 diff --git a/src/backends/octave/octavebackend.kcfg b/src/backends/octave/octavebackend.kcfg
-index 56ba6ce..16c9dc7 100644
+index be3f4f4..286910b 100644
 --- a/src/backends/octave/octavebackend.kcfg
 +++ b/src/backends/octave/octavebackend.kcfg
 @@ -8,7 +8,7 @@
    <group name="OctaveBackend">
      <entry name="Path" type="Url">
        <label>Path to the Octave executable</label>
--      <default code="true">QUrl::fromLocalFile(KStandardDirs::findExe( QLatin1String("octave") ))</default>
-+      <default code="true">QUrl::fromLocalFile(KStandardDirs::findExe( QLatin1String("octave-cli") ))</default>
+-      <default code="true">QUrl::fromLocalFile(QStandardPaths::findExecutable( QLatin1String("octave") ))</default>
++      <default code="true">QUrl::fromLocalFile(QStandardPaths::findExecutable( QLatin1String("octave-cli") ))</default>
      </entry>
      <entry name="integratePlots" type="Bool">
        <label>Integrate Plots into the Worksheet</label>
