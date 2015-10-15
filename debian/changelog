@@ -1,3 +1,16 @@
+cantor (4:15.08.2-0ubuntu2) wily; urgency=medium
+
+  * Start kdeinit5 rather than kdeinit4 in the autopkgtest testsuite
+  * autopkgtest depends on python3-numpy to pass the python3 tests
+  * Made octave backend depend on ghostscript as some of its scripts use the
+    print instruction which requires it
+  * Added kubuntu_by-default-use-octave-cli-rather-than-octave.patch to change
+    the octave binary from 'octave' to 'octave-cli' as octave for unknown
+    reasons decides to load the GUI when we really want the CLI. Also filed
+    for review upstream
+
+ -- Harald Sitter <sitter@kde.org>  Thu, 15 Oct 2015 15:26:27 +0200
+
 cantor (4:15.08.2-0ubuntu1) wily; urgency=medium
 
   * Vivid backport

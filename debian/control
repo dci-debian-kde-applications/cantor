@@ -154,7 +154,7 @@ Description: Maxima backend for Cantor
 Package: cantor-backend-octave
 Architecture: any
 Section: math
-Depends: octave, ${misc:Depends}, ${shlibs:Depends}
+Depends: ghostscript, octave, ${misc:Depends}, ${shlibs:Depends}
 Description: Octave backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
