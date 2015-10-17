@@ -1,3 +1,9 @@
+cantor (4:15.08.2-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Vivid backport. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 16 Oct 2015 21:40:18 -0700
+
 cantor (4:15.08.2-0ubuntu2) wily; urgency=medium
 
   * Start kdeinit5 rather than kdeinit4 in the autopkgtest testsuite
