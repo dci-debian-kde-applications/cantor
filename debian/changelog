@@ -1,6 +1,8 @@
 cantor (4:15.08.3-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream bugfix release
+  * Remove upstream applied 
+    kubuntu_by-default-use-octave-cli-rather-than-octave.patch 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Nov 2015 15:22:37 -0800
 
