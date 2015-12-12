@@ -15,4 +15,5 @@ usr/include/cantor/result.h
 usr/include/cantor/session.h
 usr/include/cantor/syntaxhelpobject.h
 usr/include/cantor/textresult.h
+usr/include/cantor/worksheetaccess.h
 usr/lib/*/libcantorlibs.so

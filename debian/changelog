@@ -1,3 +1,9 @@
+cantor (4:15.08.2-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Added worksheetaccess.h to cantor-dev.install  
+
+ -- Clive Johnston <clivejo@aol.com>  Sat, 12 Dec 2015 21:43:07 +0000
+
 cantor (4:15.08.2-0ubuntu2) wily; urgency=medium
 
   * Start kdeinit5 rather than kdeinit4 in the autopkgtest testsuite
