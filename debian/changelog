@@ -5,6 +5,12 @@ cantor (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 12 Dec 2015 21:43:07 +0000
 
+cantor (4:15.08.3-1) experimental; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:55 +0100
+
 cantor (4:15.08.2-0ubuntu2) wily; urgency=medium
 
   * Start kdeinit5 rather than kdeinit4 in the autopkgtest testsuite
@@ -25,11 +31,29 @@ cantor (4:15.08.2-0ubuntu1) wily; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 14 Oct 2015 11:48:54 +0100
 
+cantor (4:15.08.1-1) experimental; urgency=medium
+
+  * New upstream release (15.08.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 03:16:19 +0200
+
 cantor (4:15.08.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:05:58 +0100
+
+cantor (4:15.08.0-1) experimental; urgency=medium
+
+  * New upstream release (15.04.0).
+  * New upstream release (15.04.1).
+  * New upstream release (15.04.2).
+  * New upstream release (15.04.3).
+  * New upstream release (15.08.0).
+  * Update build dependencies.
+  * Refresh patches.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Sep 2015 18:15:59 +0200
 
 cantor (4:15.08.0-0ubuntu1) wily; urgency=medium
 
@@ -79,6 +103,12 @@ cantor (4:15.04.2-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 18:22:28 +0200
 
+cantor (4:14.12.3-1) experimental; urgency=medium
+
+  * New upstream release (14.12.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:10 +0200
+
 cantor (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release.
@@ -86,17 +116,21 @@ cantor (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 11 Mar 2015 14:52:09 -0700
 
-cantor (4:14.12.2-0ubuntu1) UNRELEASED; urgency=medium
+cantor (4:14.12.2-1) experimental; urgency=medium
+
+  * New upstream release (14.12.2).
 
   [ Scarlett Clark ]
-  * New upstream release
   * Remove weaker suggests cantor-backend-qalculate, as
-    it is already a recommends. 
+    it is already a recommends.
 
   [ Harald Sitter ]
   * Add python-numpy to tests dependencies, should fix python test
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 05 Feb 2015 20:49:17 +0000
+  [ Maximiliano Curia ]
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 Feb 2015 11:05:54 +0100
 
 cantor (4:14.12.0-0ubuntu1) vivid; urgency=medium
 
@@ -123,8 +157,8 @@ cantor (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 cantor (4:14.11.95-0ubuntu2) vivid; urgency=medium
 
-  * Fix Watch file applications locations 
-  * Fix VCS for new kde-applications location 
+  * Fix Watch file applications locations
+  * Fix VCS for new kde-applications location
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 24 Nov 2014 08:22:03 -0800
 
@@ -138,6 +172,14 @@ cantor (4:14.11.95-0ubuntu1) vivid; urgency=medium
      with accompanying breaks/replace.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 21 Nov 2014 15:36:36 -0800
+
+cantor (4:4.14.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Add libsoprano-dev to build-depends since it is no longer transitively
+    pulled in
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 28 Aug 2015 16:54:15 -0400
 
 cantor (4:4.14.2-2) unstable; urgency=medium
 
@@ -754,4 +796,3 @@ cantor (4:4.6.90+repack1-0ubuntu1) oneiric; urgency=low
   * Repack to add missing COPYING files
 
  -- Philip Muškovac <yofel@kubuntu.org>  Thu, 30 Jun 2011 07:55:47 +0200
-

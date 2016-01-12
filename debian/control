@@ -3,43 +3,18 @@ Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules,
-               gettext,
-               kdoctools-dev,
-               kgendesignerplugin,
-               kinit-dev,
-               kio-dev,
-               libanalitza-dev,
+               extra-cmake-modules (>= 1.7.0~),
+               libanalitza-dev (>> 4:15.08),
                libglib2.0-dev,
                libkf5archive-dev,
-               libkf5attica-dev,
-               libkf5auth-dev,
-               libkf5bookmarks-dev,
-               libkf5codecs-dev,
-               libkf5completion-dev,
                libkf5config-dev,
-               libkf5configwidgets-dev,
                libkf5coreaddons-dev,
-               libkf5crash-dev,
-               libkf5dbusaddons-dev,
-               libkf5emoticons-dev,
-               libkf5globalaccel-dev,
-               libkf5guiaddons-dev,
-               libkf5i18n-dev,
-               libkf5iconthemes-dev,
-               libkf5itemmodels-dev,
-               libkf5itemviews-dev,
-               libkf5jobwidgets-dev,
                libkf5kdelibs4support-dev,
                libkf5newstuff-dev,
-               libkf5notifications-dev,
                libkf5parts-dev,
                libkf5pty-dev,
-               libkf5service-dev,
-               libkf5solid-dev,
-               libkf5sonnet-dev,
                libkf5texteditor-dev,
                libkf5textwidgets-dev,
                libkf5unitconversion-dev,
@@ -48,20 +23,19 @@ Build-Depends: cmake,
                libkf5xmlgui-dev,
                libluajit-5.1-dev  [i386 amd64],
                libqalculate-dev,
-               libqt5svg5-dev,
-               libqt5xmlpatterns5-dev,
+               libqt5svg5-dev (>= 5.4),
+               libqt5xmlpatterns5-dev (>= 5.4),
                libspectre-dev,
                pkg-config,
                pkg-kde-tools (>> 0.15.15),
-               python-dev,
+               python-dev (>= 2.7~),
                python3-dev,
-               qtbase5-dev,
+               qtbase5-dev (>= 5.4),
                r-base-core
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: http://edu.kde.org/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/cantor.git/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/cantor.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/cantor.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/cantor.git
 
 Package: cantor
 Architecture: any
@@ -170,6 +144,8 @@ Package: libcantor-pythonbackend
 Architecture: any
 Section: math
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: cantor-backend-python2 (<< 4:15.08)
+Replaces: cantor-backend-python2 (<< 4:15.08)
 Description: Base Python backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
@@ -184,7 +160,10 @@ Description: Base Python backend for Cantor
 Package: cantor-backend-python2
 Architecture: any
 Section: math
-Depends: python, ${misc:Depends}, ${shlibs:Depends}
+Depends: libcantor-pythonbackend (= ${binary:Version}),
+         python,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Python2 backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
@@ -199,7 +178,10 @@ Description: Python2 backend for Cantor
 Package: cantor-backend-python3
 Architecture: any
 Section: math
-Depends: python3, ${misc:Depends}, ${shlibs:Depends}
+Depends: libcantor-pythonbackend (= ${binary:Version}),
+         python3,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Python3 backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
