@@ -1,6 +1,5 @@
 etc/xdg/cantor_r.knsrc
 usr/bin/cantor_rserver
-usr/lib/*/qt5/plugins/cantor_rbackend.so
+usr/lib/*/qt5/plugins/cantor/backends/cantor_rbackend.so
 usr/share/config.kcfg/rserver.kcfg
 usr/share/icons/hicolor/48x48/apps/rbackend.png
-usr/share/kservices5/cantor/rbackend.desktop

@@ -1,5 +1,4 @@
 etc/xdg/cantor_python3.knsrc
 usr/bin/cantor_python3server
-usr/lib/*/qt5/plugins/cantor_python3backend.so
+usr/lib/*/qt5/plugins/cantor/backends/cantor_python3backend.so
 usr/share/config.kcfg/python3backend.kcfg
-usr/share/kservices5/cantor/python3backend.desktop
