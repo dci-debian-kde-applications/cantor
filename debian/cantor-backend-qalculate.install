@@ -1,5 +1,5 @@
 usr/lib/*/qt5/plugins/cantor/backends/cantor_qalculatebackend.so
-usr/lib/*/qt5/plugins/cantor/backends/cantor_qalculateplotassistant.so
+usr/lib/*/qt5/plugins/cantor/assistants/cantor_qalculateplotassistant.so
 usr/share/cantor/cantor_qalculateplotassistant.rc
 usr/share/config.kcfg/qalculatebackend.kcfg
 usr/share/icons/hicolor/48x48/apps/qalculatebackend.png
