@@ -12,4 +12,4 @@ override_dh_makeshlibs:
 	$(overridden_command) -V
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=cantor-dbg
+	$(overridden_command) --ddeb-migration='cantor-dbg (<= 4:15.12.1-1~~)'

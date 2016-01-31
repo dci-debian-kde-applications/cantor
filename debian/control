@@ -277,19 +277,6 @@ Description: Lua backend for Cantor
  .
  This package is part of the KDE education module.
 
-Package: cantor-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: cantor (= ${binary:Version}), ${misc:Depends}
-Breaks: kdeedu-dbg (<< 4:4.6.80)
-Replaces: kdeedu-dbg (<< 4:4.6.80)
-Description: debugging symbols for cantor
- This package contains debugging files used to investigate problems with
- binaries included in cantor.
- .
- This package is part of the KDE education module.
-
 Package: cantor-backend-python
 Architecture: all
 Priority: extra
