@@ -8,6 +8,14 @@ override_dh_auto_test:
 	# Disable dh_auto_test at build time
 	:
 
+override_dh_install:
+	$(overridden_command)
+	# The luajit is available only in amd64 and i386 for now
+	if [ -f debian/tmp/etc/xdg/cantor_lua.knsrc ]; then \
+	    mkdir -p debian/cantor/etc/xdg; \
+	    cp debian/tmp/etc/xdg/cantor_lua.knsrc debian/cantor/etc/xdg; \
+	fi
+
 override_dh_makeshlibs:
 	$(overridden_command) -V
 
