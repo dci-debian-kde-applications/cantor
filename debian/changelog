@@ -3,6 +3,7 @@ cantor (4:15.12.2-1~) UNRELEASED; urgency=medium
   * New upstream release (15.12.2).
   * Disable scilab support, (wait for #749833 to be fixed to re-enable
     it).
+  * Bump Standards-Version to 3.9.7, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:43:52 +0100
 
