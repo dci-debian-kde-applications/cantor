@@ -3,6 +3,19 @@ Comment: This package was developed for Ubuntu by the Kubuntu Developers and
  modified to be included in Debian. See below the copyright holders for debian/*
  files.
 
+Files: *
+Copyright: 2009-2010 Alexander Rieder <alexanderrieder@gmail.com>
+           2010 Miha Čančula <miha.cancula@gmail.com>
+           2006 David Saxton <david@bluehaze.org>
+           2010 Raffaele De Feo <alberthilbert@gmail.com>
+           2009-2010 Oleksiy Protas <elfy.ua@gmail.com>
+           2009 Aleix Pol <aleixpol@kde.org>
+           2011 Filipe Saraiva <filipe@kde.org>
+           2009 Milian Wolff <mail@milianw.de>
+           2011 Martin Kuettler <martinkuettler@gmail.com>
+           2011  Matteo Agostinelli <agostinelli@gmail.com>
+License: GPL-2+
+
 Files: doc/*
 Copyright: 2009 Alexander Rieder <alexanderrieder@gmail.com>
 License: GFDL-1.2+
@@ -16,19 +29,6 @@ License: GFDL-1.2+
  On Debian systems, the full text of the GNU Free Documentation
  License version 1.2 can be found in the file
  `/usr/share/common-licenses/GFDL-1.2'.
-
-Files: *
-Copyright: 2009-2010 Alexander Rieder <alexanderrieder@gmail.com>
-           2010 Miha Čančula <miha.cancula@gmail.com>
-           2006 David Saxton <david@bluehaze.org>
-           2010 Raffaele De Feo <alberthilbert@gmail.com>
-           2009-2010 Oleksiy Protas <elfy.ua@gmail.com>
-           2009 Aleix Pol <aleixpol@kde.org>
-           2011 Filipe Saraiva <filipe@kde.org>
-           2009 Milian Wolff <mail@milianw.de>
-           2011 Martin Kuettler <martinkuettler@gmail.com>
-           2011  Matteo Agostinelli <agostinelli@gmail.com>
-License: GPL-2+
 
 Files: src/backends/qalculate/settingswidget.*
 Copyright: 2011  Matteo Agostinelli <agostinelli@gmail.com>
