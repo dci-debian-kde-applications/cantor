@@ -1,4 +1,4 @@
-cantor (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+cantor (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
   * Added worksheetaccess.h to cantor-dev.install  
@@ -7,7 +7,7 @@ cantor (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Philip Muškovac ]
   * Merge with debian git master
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 12 Dec 2015 21:43:07 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 10:22:37 +0100
 
 cantor (4:15.08.3-1) experimental; urgency=medium
 
