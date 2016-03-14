@@ -4,6 +4,12 @@ cantor (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 10 Mar 2016 08:05:46 -0800
 
+cantor (4:15.12.1-0ubuntu2) xenial; urgency=medium
+
+  * No-change rebuild against libanalitza7 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 15 Mar 2016 00:30:19 +0100
+
 cantor (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
