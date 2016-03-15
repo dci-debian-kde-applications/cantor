@@ -111,7 +111,7 @@ Description: KAlgebra backend for Cantor
  This package is part of the KDE education module.
 
 Package: cantor-backend-maxima
-Architecture: any
+Architecture: amd64 i386 armhf arm64 powerpc ppc64el
 Section: math
 Depends: maxima, ${misc:Depends}, ${shlibs:Depends}
 Description: Maxima backend for Cantor
