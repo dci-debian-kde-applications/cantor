@@ -1,3 +1,9 @@
+cantor (4:15.12.1-0ubuntu3) xenial; urgency=medium
+
+  * Only build the maxima backend on !s390x as maxima is not available there 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 15 Mar 2016 01:28:04 +0100
+
 cantor (4:15.12.1-0ubuntu2) xenial; urgency=medium
 
   * No-change rebuild against libanalitza7 
