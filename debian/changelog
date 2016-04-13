@@ -1,3 +1,11 @@
+cantor (4:15.12.2-2~1.gbpd9d0c4) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @d9d0c4889e2585a6cf50672d04ef999d4b1814b0 **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:56:30 +0200
+
 cantor (4:15.12.2-1) unstable; urgency=medium
 
   * New upstream release (15.12.2).
