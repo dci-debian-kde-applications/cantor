@@ -1,10 +1,11 @@
-cantor (4:15.12.2-2~1.gbpd9d0c4) UNRELEASED; urgency=medium
+cantor (4:15.12.2-2~2.gbpb7fbf0) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d9d0c4889e2585a6cf50672d04ef999d4b1814b0 **
+  ** SNAPSHOT build @b7fbf0961bb8fd90c037499e43fa2620eaa5388e **
 
   * Bump Standards-Version to 3.9.8
+  * Add scilab files to the not-installed list
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:56:30 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 14 Apr 2016 09:45:45 +0200
 
 cantor (4:15.12.2-1) unstable; urgency=medium
 
