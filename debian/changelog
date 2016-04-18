@@ -7,6 +7,9 @@ cantor (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Philip Muškovac ]
   * Merge with debian git master
 
+  [ Scarlett Clark ]
+  * Add missing test dependencies. 
+
  -- Clive Johnston <clivejo@aol.com>  Sat, 12 Dec 2015 21:43:07 +0000
 
 cantor (4:15.08.3-1) experimental; urgency=medium

@@ -1,5 +1,6 @@
 Tests: testsuite
 Depends: @, @builddeps@, build-essential,
          xvfb, xauth, dbus-x11,
-         gnuplot, python-numpy, python3-numpy
+         gnuplot, python-numpy, python3-numpy,
+         epstool, transfig, pstoedit
 Restrictions: build-needed
