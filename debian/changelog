@@ -1,6 +1,7 @@
-cantor (4:15.12.3-0ubuntu2) UNRELEASED; urgency=medium
+cantor (4:15.12.3-0ubuntu2) xenial; urgency=medium
 
   * Add missing test dependencies. 
+  * Release to archive. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 18 Apr 2016 08:34:16 -0700
 
