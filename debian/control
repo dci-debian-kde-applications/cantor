@@ -5,25 +5,25 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 1.7.0~),
-               kdoctools-dev,
-               kio-dev,
+               extra-cmake-modules (>= 5.15.0~),
+               kdoctools-dev (>= 5.15~),
+               kio-dev (>= 5.15~),
                libanalitza-dev (>> 4:15.08),
                libglib2.0-dev,
-               libkf5archive-dev,
-               libkf5completion-dev,
-               libkf5config-dev,
-               libkf5coreaddons-dev,
-               libkf5crash-dev,
-               libkf5i18n-dev,
-               libkf5iconthemes-dev,
+               libkf5archive-dev (>= 5.15~),
+               libkf5completion-dev (>= 5.15~),
+               libkf5config-dev (>= 5.15~),
+               libkf5coreaddons-dev (>= 5.15~),
+               libkf5crash-dev (>= 5.15~),
+               libkf5i18n-dev (>= 5.15~),
+               libkf5iconthemes-dev (>= 5.15~),
                libkf5kdelibs4support-dev,
-               libkf5newstuff-dev,
-               libkf5parts-dev,
-               libkf5pty-dev,
-               libkf5texteditor-dev,
-               libkf5textwidgets-dev,
-               libkf5xmlgui-dev,
+               libkf5newstuff-dev (>= 5.15~),
+               libkf5parts-dev (>= 5.15~),
+               libkf5pty-dev (>= 5.15~),
+               libkf5texteditor-dev (>= 5.15~),
+               libkf5textwidgets-dev (>= 5.15~),
+               libkf5xmlgui-dev (>= 5.15~),
                liblapack3,
                libluajit-5.1-dev [i386 amd64],
                libqalculate-dev,
@@ -53,8 +53,7 @@ Suggests: cantor-backend-kalgebra,
           cantor-backend-python2,
           cantor-backend-python3,
           cantor-backend-r,
-          cantor-backend-sage,
-#          cantor-backend-scilab [amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64el s390x]
+          cantor-backend-sage
 Description: interface for mathematical applications
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
@@ -246,21 +245,6 @@ Description: Sage backend for Cantor
  install it for this package to work.
  .
  This package is part of the KDE education module.
-
-# Package: cantor-backend-scilab
-# Architecture: amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64el s390x
-# Section: math
-# Depends: scilab-cli, ${misc:Depends}, ${shlibs:Depends}
-# Description: Scilab backend for Cantor
-#  Cantor is an application to allow you to you use your favorite mathematical
-#  applications from within an elegant worksheet interface. It provides dialogs
-#  to assist with common tasks and allows you to share your worksheets
-#  with others.
-#  .
-#  This package provides the backend for using the Scilab scientific software
-#  package for numerical computations (http://www.scilab.org) in Cantor.
-#  .
-#  This package is part of the KDE education module.
 
 Package: cantor-backend-lua
 Architecture: amd64 i386
