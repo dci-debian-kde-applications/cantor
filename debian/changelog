@@ -1,13 +1,14 @@
-cantor (4:16.04.0-1~1.gbpcde323) UNRELEASED; urgency=medium
+cantor (4:16.04.1-1~1.gbpa1efb0) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @cde323e41f18b6a7c8f584974976d4bcf19aedda **
+  ** SNAPSHOT build @a1efb06a2dd8c4fef216be33eb71c59673259c30 **
 
   * Bump Standards-Version to 3.9.8
   * Add scilab files to the not-installed list
   * Update build-deps and deps with the info from cmake
   * Refresh patches
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 01:54:16 +0200
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 19:54:15 +0200
 
 cantor (4:15.12.2-1) unstable; urgency=medium
 
