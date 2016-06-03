@@ -1,0 +1,125 @@
+commit 58780b3164ddada384e022509beccb1f54cf5dc0
+Author: Maximiliano Curia <maxy@gnuservers.com.ar>
+Date:   Fri Jun 3 16:43:42 2016 +0200
+
+    Drop qalculate settingswidget.* files
+    
+    The files were licensed GPL-3+ in a GPL-2+ project, just to wrap the ui.
+    The replacement function is based on the lua backend's settingsWidget
+    function.
+    
+    This solves the bug 359918, and debian bug #792078
+
+diff --git a/src/backends/qalculate/CMakeLists.txt b/src/backends/qalculate/CMakeLists.txt
+index d564da4..bab0118 100644
+--- a/src/backends/qalculate/CMakeLists.txt
++++ b/src/backends/qalculate/CMakeLists.txt
+@@ -13,7 +13,6 @@ qalculateexpression.cpp
+ qalculateextensions.cpp
+ qalculatecompletionobject.cpp
+ qalculateextensions.cpp
+-settingswidget.cpp
+ )
+ 
+ kconfig_add_kcfg_files(QalculateBackend_SRCS settings.kcfgc)
+diff --git a/src/backends/qalculate/qalculatebackend.cpp b/src/backends/qalculate/qalculatebackend.cpp
+index 3c589ab..de9923e 100644
+--- a/src/backends/qalculate/qalculatebackend.cpp
++++ b/src/backends/qalculate/qalculatebackend.cpp
+@@ -17,13 +17,13 @@
+ *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA   *
+ *************************************************************************************/
+ 
++#include "ui_settings.h"
++
+ #include "settings.h"
+ #include "qalculatebackend.h"
+ #include "qalculatesession.h"
+ #include "qalculateextensions.h"
+ 
+-#include "settingswidget.h"
+-
+ #include "cantor_macros.h"
+ 
+ #include <KLocalizedString>
+@@ -84,7 +84,11 @@ KConfigSkeleton* QalculateBackend::config() const
+ 
+ QWidget* QalculateBackend::settingsWidget(QWidget* parent) const
+ {
+-    return new QalculateSettingsWidget(parent);
++    QWidget* widget = new QWidget(parent);
++    Ui::QalculateSettingsBase s;
++    s.setupUi(widget);
++
++    return widget;
+ }
+ 
+ K_PLUGIN_FACTORY_WITH_JSON(qalculatebackend, "qalculatebackend.json", registerPlugin<QalculateBackend>();)
+diff --git a/src/backends/qalculate/settingswidget.cpp b/src/backends/qalculate/settingswidget.cpp
+deleted file mode 100644
+index 625d352..0000000
+--- a/src/backends/qalculate/settingswidget.cpp
++++ /dev/null
+@@ -1,24 +0,0 @@
+-/*
+-    Copyright (C) 2011  Matteo Agostinelli <agostinelli@gmail.com>
+-
+-    This program is free software: you can redistribute it and/or modify
+-    it under the terms of the GNU General Public License as published by
+-    the Free Software Foundation, either version 3 of the License, or
+-    (at your option) any later version.
+-
+-    This program is distributed in the hope that it will be useful,
+-    but WITHOUT ANY WARRANTY; without even the implied warranty of
+-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+-    GNU General Public License for more details.
+-
+-    You should have received a copy of the GNU General Public License
+-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-
+-*/
+-
+-#include "settingswidget.h"
+-
+-QalculateSettingsWidget::QalculateSettingsWidget(QWidget* parent, Qt::WindowFlags f): QWidget(parent, f)
+-{
+-    setupUi(this);
+-}
+diff --git a/src/backends/qalculate/settingswidget.h b/src/backends/qalculate/settingswidget.h
+deleted file mode 100644
+index aa0251d..0000000
+--- a/src/backends/qalculate/settingswidget.h
++++ /dev/null
+@@ -1,32 +0,0 @@
+-/*
+-    Copyright (C) 2011  Matteo Agostinelli <agostinelli@gmail.com>
+-
+-    This program is free software: you can redistribute it and/or modify
+-    it under the terms of the GNU General Public License as published by
+-    the Free Software Foundation, either version 3 of the License, or
+-    (at your option) any later version.
+-
+-    This program is distributed in the hope that it will be useful,
+-    but WITHOUT ANY WARRANTY; without even the implied warranty of
+-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+-    GNU General Public License for more details.
+-
+-    You should have received a copy of the GNU General Public License
+-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-
+-*/
+-
+-#ifndef SETTINGSWIDGET_H
+-#define SETTINGSWIDGET_H
+-
+-#include "ui_settings.h"
+-
+-class QalculateSettingsWidget : public QWidget, public Ui::QalculateSettingsBase
+-{
+-Q_OBJECT
+-
+-public:
+-    explicit QalculateSettingsWidget(QWidget* parent = 0, Qt::WindowFlags f = 0);
+-};
+-
+-#endif
