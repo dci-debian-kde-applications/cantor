@@ -1,8 +1,17 @@
-Index: cantor/src/backends/maxima/maximasession.cpp
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Thu, 21 Apr 2016 01:54:13 +0200
+Subject: maxima_waiting_the_carriage
+
 ===================================================================
---- cantor.orig/src/backends/maxima/maximasession.cpp	2015-09-06 00:34:06.605711068 +0200
-+++ cantor/src/backends/maxima/maximasession.cpp	2015-09-06 00:34:37.368471173 +0200
-@@ -228,6 +228,12 @@
+---
+ src/backends/maxima/maximasession.cpp | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/src/backends/maxima/maximasession.cpp b/src/backends/maxima/maximasession.cpp
+index 8f12a14..0e00b52 100644
+--- a/src/backends/maxima/maximasession.cpp
++++ b/src/backends/maxima/maximasession.cpp
+@@ -228,6 +228,12 @@ void MaximaSession::readStdOut()
      QString out=m_process->readAllStandardOutput();
  #endif
  
