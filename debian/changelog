@@ -1,11 +1,9 @@
-cantor (4:16.04.2-1~2.gbp06b861) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @06b861d37440f1b38650048be8032dae3b309638 **
+cantor (4:16.04.2-1) unstable; urgency=medium
 
   * Add new patch: upstream_drop_settingswidget_files.patch (Closes: 792078)
     Thanks to Scott Kitterman for the report.
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 24 Jun 2016 09:07:53 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 24 Jun 2016 09:10:44 +0200
 
 cantor (4:16.04.1-1) unstable; urgency=medium
 
