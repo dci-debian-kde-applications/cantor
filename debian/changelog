@@ -1,3 +1,11 @@
+cantor (4:16.04.3-1~1.gbp150aa9) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @150aa975c58eb9c806a9b32e8e1b82a3dd5f64fe **
+
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 19:54:25 +0200
+
 cantor (4:16.04.2-1) unstable; urgency=medium
 
   * Add new patch: upstream_drop_settingswidget_files.patch (Closes: 792078)
