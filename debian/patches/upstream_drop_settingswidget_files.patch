@@ -1,3 +1,7 @@
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Tue, 12 Jul 2016 19:54:20 +0200
+Subject: upstream_drop_settingswidget_files
+
 commit 58780b3164ddada384e022509beccb1f54cf5dc0
 Author: Maximiliano Curia <maxy@gnuservers.com.ar>
 Date:   Fri Jun 3 16:43:42 2016 +0200
@@ -9,6 +13,14 @@ Date:   Fri Jun 3 16:43:42 2016 +0200
     function.
     
     This solves the bug 359918, and debian bug #792078
+---
+ src/backends/qalculate/CMakeLists.txt       |  1 -
+ src/backends/qalculate/qalculatebackend.cpp | 10 ++++++---
+ src/backends/qalculate/settingswidget.cpp   | 24 ----------------------
+ src/backends/qalculate/settingswidget.h     | 32 -----------------------------
+ 4 files changed, 7 insertions(+), 60 deletions(-)
+ delete mode 100644 src/backends/qalculate/settingswidget.cpp
+ delete mode 100644 src/backends/qalculate/settingswidget.h
 
 diff --git a/src/backends/qalculate/CMakeLists.txt b/src/backends/qalculate/CMakeLists.txt
 index d564da4..bab0118 100644
