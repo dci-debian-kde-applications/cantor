@@ -21,7 +21,6 @@ usr/lib/*/qt5/plugins/cantor/assistants/cantor_solveassistant.so
 usr/lib/*/qt5/plugins/cantor/backends/cantor_nullbackend.so
 usr/lib/*/qt5/plugins/cantor/panels/
 usr/lib/*/qt5/plugins/libcantorpart.so
-usr/share/metainfo/org.kde.cantor.appdata.xml
 usr/share/applications/org.kde.cantor.desktop
 usr/share/cantor/cantor_advancedplot_assistant.rc
 usr/share/cantor/cantor_create_matrix_assistant.rc
@@ -46,3 +45,4 @@ usr/share/icons/hicolor/*/apps/cantor.png
 usr/share/kxmlgui5/cantor/cantor_part.rc
 usr/share/kxmlgui5/cantor/cantor_scripteditor.rc
 usr/share/kxmlgui5/cantor/cantor_shell.rc
+usr/share/metainfo/org.kde.cantor.appdata.xml
