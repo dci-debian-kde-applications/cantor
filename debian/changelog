@@ -1,11 +1,17 @@
-cantor (4:16.08.0-1~1.gbpc06bab) UNRELEASED; urgency=medium
+cantor (4:16.08.0-1~2.gbp5f9d2e) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @5f9d2e181f107307aff09bfd72a86cc4cb9b8588 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @c06babe9d3f7ae89d1e98e289a14bce761085304 **
 
   * Refresh patches
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 19:54:30 +0200
+  [ Maximiliano Curia ]
+  * Update install files
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 28 Aug 2016 08:52:28 +0200
 
 cantor (4:16.04.2-1) unstable; urgency=medium
 
