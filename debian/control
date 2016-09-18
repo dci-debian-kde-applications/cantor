@@ -35,6 +35,7 @@ Build-Depends: cmake (>= 2.8.12~),
                python-dev (>= 2.7~),
                python3-dev,
                qtbase5-dev (>= 5.4),
+               julia,
                r-base-core
 Standards-Version: 3.9.8
 Homepage: http://edu.kde.org/
