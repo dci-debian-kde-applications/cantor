@@ -1,19 +1,14 @@
-cantor (4:16.08.2-1~1.gbp36dffc) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @36dffc85387fc27a4bc1838acab0f5b1e4679452 **
+cantor (4:16.08.2-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @c06babe9d3f7ae89d1e98e289a14bce761085304 **
-
   * Refresh patches
-  * Refresh patches
-  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * New upstream release (16.08.2)
   * Update install files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 19:54:32 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 00:03:38 +0200
 
 cantor (4:16.04.2-1) unstable; urgency=medium
 
