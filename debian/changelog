@@ -1,10 +1,8 @@
-cantor (4:16.08.3-1~1.gbp8076c6) UNRELEASED; urgency=medium
+cantor (4:16.08.3-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @8076c6e486b20206eb24f20172f54bd94055c853 **
+  * New upstream release (16.08.3)
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 19:54:21 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 20:49:59 +0100
 
 cantor (4:16.08.2-1) unstable; urgency=medium
 
