@@ -6,6 +6,7 @@ Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.15.0~),
+               julia,
                kdoctools-dev (>= 5.15~),
                kio-dev (>= 5.15~),
                libanalitza-dev (>> 4:15.08),
