@@ -1,8 +1,68 @@
+cantor (4:17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:31:06 +0000
+
+cantor (4:17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:18:24 +0000
+
+cantor (4:17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:19:53 +0000
+
+cantor (4:17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:11:13 +0000
+
+cantor (4:17.04.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 19 Apr 2017 13:02:25 +0000
+
+cantor (4:16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:46:25 +0000
+
+cantor (4:16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 16:55:28 +0000
+
+cantor (4:16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:13:44 +0000
+
+cantor (4:16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 16:23:11 +0000
+
 cantor (4:16.08.3-1) unstable; urgency=medium
 
   * New upstream release (16.08.3)
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 20:49:59 +0100
+
+cantor (4:16.08.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 21 Nov 2016 13:52:12 +0000
 
 cantor (4:16.08.2-1) unstable; urgency=medium
 
@@ -16,12 +76,42 @@ cantor (4:16.08.2-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 00:03:38 +0200
 
+cantor (4:16.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:38:12 +0000
+
+cantor (4:16.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 16 Sep 2016 13:04:54 +0000
+
+cantor (4:16.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 17 Aug 2016 11:47:09 +0000
+
+cantor (4:16.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 12 Jul 2016 11:39:45 +0000
+
 cantor (4:16.04.2-1) unstable; urgency=medium
 
   * Add new patch: upstream_drop_settingswidget_files.patch (Closes: 792078)
     Thanks to Scott Kitterman for the report.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 24 Jun 2016 09:10:44 +0200
+
+cantor (4:16.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 16 Jun 2016 11:09:05 +0000
 
 cantor (4:16.04.1-1) unstable; urgency=medium
 
