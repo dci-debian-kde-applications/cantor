@@ -54,6 +54,7 @@ Suggests: cantor-backend-kalgebra,
           cantor-backend-python2,
           cantor-backend-python3,
           cantor-backend-r,
+          cantor-backend-scilab [amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64el s390x]
           cantor-backend-sage,
 Breaks: ${kde-l10n:all}
 Replaces: ${kde-l10n:all}
@@ -229,6 +230,21 @@ Description: Sage backend for Cantor
  .
  Please note that sagemath is not available in Debian, so you need to manually
  install it for this package to work.
+ .
+ This package is part of the KDE education module.
+
+Package: cantor-backend-scilab
+Architecture: amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64el s390x
+Section: math
+Depends: scilab-cli, ${misc:Depends}, ${shlibs:Depends}
+Description: Scilab backend for Cantor
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant worksheet interface. It provides dialogs
+ to assist with common tasks and allows you to share your worksheets
+ with others.
+ .
+ This package provides the backend for using the Scilab scientific software
+ package for numerical computations (http://www.scilab.org) in Cantor.
  .
  This package is part of the KDE education module.
 
