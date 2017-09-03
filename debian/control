@@ -54,8 +54,8 @@ Suggests: cantor-backend-kalgebra,
           cantor-backend-python2,
           cantor-backend-python3,
           cantor-backend-r,
-          cantor-backend-scilab [amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64el s390x]
           cantor-backend-sage,
+          cantor-backend-scilab [amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64el s390x],
 Breaks: ${kde-l10n:all}
 Replaces: ${kde-l10n:all}
 Description: interface for mathematical applications
