@@ -7,21 +7,20 @@ Subject: maxima_multiresults
  src/backends/maxima/maximaexpression.cpp | 7 ++++++-
  1 file changed, 6 insertions(+), 1 deletion(-)
 
-diff --git a/src/backends/maxima/maximaexpression.cpp b/src/backends/maxima/maximaexpression.cpp
-index fea621f..807a9cf 100644
---- a/src/backends/maxima/maximaexpression.cpp
-+++ b/src/backends/maxima/maximaexpression.cpp
-@@ -481,7 +481,12 @@ bool MaximaExpression::parseOutput(QString& out)
+Index: cantor/src/backends/maxima/maximaexpression.cpp
+===================================================================
+--- cantor.orig/src/backends/maxima/maximaexpression.cpp
++++ cantor/src/backends/maxima/maximaexpression.cpp
+@@ -481,6 +481,12 @@ bool MaximaExpression::parseOutput(QStri
                  {
                      //if we got an error message, but also a result, lets just+
                      //assume that it was just a warning, as obviously something worked
--                    if(errorMessage().isEmpty()||result!=0)
 +                    if(errorMessage().isEmpty() && idx2 < out.size()) {
 +                        // just a prompt, and there are more results ahead
 +                        idx = idx2;
 +                        continue;
 +                    }
-+                    else if(errorMessage().isEmpty()||result!=0)
++                    else if(errorMessage().isEmpty()||result!=nullptr)
+                     if(errorMessage().isEmpty()||result!=nullptr)
                      {
                          setResult(result);
-                         setStatus(Cantor::Expression::Done);

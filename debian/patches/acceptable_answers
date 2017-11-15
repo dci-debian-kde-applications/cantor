@@ -7,16 +7,16 @@ Subject: acceptable_answers
  src/backends/maxima/testmaxima.cpp | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/src/backends/maxima/testmaxima.cpp b/src/backends/maxima/testmaxima.cpp
-index 1437ab9..de18059 100644
---- a/src/backends/maxima/testmaxima.cpp
-+++ b/src/backends/maxima/testmaxima.cpp
-@@ -189,7 +189,7 @@ void TestMaxima::testInformationRequest()
+Index: cantor/src/backends/maxima/testmaxima.cpp
+===================================================================
+--- cantor.orig/src/backends/maxima/testmaxima.cpp
++++ cantor/src/backends/maxima/testmaxima.cpp
+@@ -189,7 +189,7 @@ void TestMaxima::testInformationRequest(
      Cantor::Expression* e=session()->evaluateExpression(QLatin1String("integrate(x^n,x)"));
-     QVERIFY(e!=0);
+     QVERIFY(e!=nullptr);
      waitForSignal(e, SIGNAL(needsAdditionalInformation(QString)));
 -    e->addInformation(QLatin1String("nonzero;"));
 +    e->addInformation(QLatin1String("no;"));
  
      waitForSignal(e, SIGNAL(statusChanged(Cantor::Expression::Status)));
-     QVERIFY(e->result()!=0);
+     QVERIFY(e->result()!=nullptr);

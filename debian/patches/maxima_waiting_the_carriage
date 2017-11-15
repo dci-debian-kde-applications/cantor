@@ -7,11 +7,11 @@ Subject: maxima_waiting_the_carriage
  src/backends/maxima/maximasession.cpp | 6 ++++++
  1 file changed, 6 insertions(+)
 
-diff --git a/src/backends/maxima/maximasession.cpp b/src/backends/maxima/maximasession.cpp
-index 8f12a14..0e00b52 100644
---- a/src/backends/maxima/maximasession.cpp
-+++ b/src/backends/maxima/maximasession.cpp
-@@ -228,6 +228,12 @@ void MaximaSession::readStdOut()
+Index: cantor/src/backends/maxima/maximasession.cpp
+===================================================================
+--- cantor.orig/src/backends/maxima/maximasession.cpp
++++ cantor/src/backends/maxima/maximasession.cpp
+@@ -205,6 +205,12 @@ void MaximaSession::readStdOut()
      QString out=m_process->readAllStandardOutput();
  #endif
  
