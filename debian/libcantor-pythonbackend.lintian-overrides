@@ -1,3 +1,6 @@
+# private library
 libcantor-pythonbackend: shlib-without-versioned-soname usr/lib/*/libcantor_pythonbackend.so libcantor_pythonbackend.so
 libcantor-pythonbackend: postinst-must-call-ldconfig usr/lib/*/libcantor_pythonbackend.so
 libcantor-pythonbackend: package-must-activate-ldconfig-trigger usr/lib/*/libcantor_pythonbackend.so
+# private library
+libcantor-pythonbackend: no-symbols-control-file
