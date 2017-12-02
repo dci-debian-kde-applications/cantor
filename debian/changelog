@@ -8,6 +8,9 @@ cantor (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Simplify watch file, and switch it to https.
   * Fix typo in an old changelog entry.
   * Remove debian/not-installed, as it is no more useful now.
+  * Drop the cantor-dev package, since cantor does not provide stable API/ABI
+    for its libraries, and the current packaging does not support well
+    dependencies.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Dec 2017 10:13:24 +0100
 

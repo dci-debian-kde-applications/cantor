@@ -11,6 +11,12 @@ override_dh_auto_test:
 	# Disable dh_auto_test at build time
 	:
 
+override_dh_auto_install:
+	$(overridden_command)
+	# do not ship the development stuff for now
+	rm -rf debian/tmp/usr/include/cantor/
+	find debian/tmp -name '*.so' -type l -delete
+
 override_dh_install:
 	$(overridden_command)
 	# The luajit is available only in amd64 and i386 for now
