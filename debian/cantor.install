@@ -1,7 +1,4 @@
 etc/xdg/cantor.knsrc
-etc/xdg/cantor_octave.knsrc
-etc/xdg/cantor_qalculate.knsrc
-etc/xdg/cantor_scilab.knsrc
 usr/bin/cantor
 usr/lib/*/libcantor_config.so
 usr/lib/*/libcantorlibs.so.*
@@ -39,7 +36,6 @@ usr/share/config.kcfg/cantor.kcfg
 usr/share/config.kcfg/cantor_libs.kcfg
 usr/share/doc/HTML/
 usr/share/icons/hicolor/*/apps/cantor.png
-usr/share/icons/hicolor/*/apps/juliabackend.png
 usr/share/kxmlgui5/cantor/cantor_part.rc
 usr/share/kxmlgui5/cantor/cantor_scripteditor.rc
 usr/share/kxmlgui5/cantor/cantor_shell.rc

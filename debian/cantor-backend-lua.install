@@ -1,3 +1,4 @@
+etc/xdg/cantor_lua.knsrc
 usr/lib/*/qt5/plugins/cantor/backends/cantor_luabackend.so
 usr/share/config.kcfg/luabackend.kcfg
 usr/share/icons/hicolor/48x48/apps/luabackend.png

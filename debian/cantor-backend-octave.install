@@ -1,3 +1,4 @@
+etc/xdg/cantor_octave.knsrc
 usr/lib/*/qt5/plugins/cantor/backends/cantor_octavebackend.so
 usr/share/cantor/octavebackend/cantor_eigenvectors.m
 usr/share/cantor/octavebackend/cantor_plot2d.m

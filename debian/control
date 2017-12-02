@@ -96,6 +96,8 @@ Package: cantor-backend-lua
 Architecture: amd64 i386
 Section: math
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: cantor (<< 4:17.08.3~)
+Replaces: cantor (<< 4:17.08.3~)
 Description: Lua backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
@@ -126,6 +128,8 @@ Package: cantor-backend-octave
 Architecture: any
 Section: math
 Depends: octave, ${misc:Depends}, ${shlibs:Depends}
+Breaks: cantor (<< 4:17.08.3~)
+Replaces: cantor (<< 4:17.08.3~)
 Description: Octave backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
@@ -187,6 +191,8 @@ Package: cantor-backend-qalculate
 Architecture: any
 Section: math
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: cantor (<< 4:17.08.3~)
+Replaces: cantor (<< 4:17.08.3~)
 Description: Qalculate! backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs
@@ -237,6 +243,8 @@ Package: cantor-backend-scilab
 Architecture: amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64el s390x
 Section: math
 Depends: scilab-cli, ${misc:Depends}, ${shlibs:Depends}
+Breaks: cantor (<< 4:17.08.3~)
+Replaces: cantor (<< 4:17.08.3~)
 Description: Scilab backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant worksheet interface. It provides dialogs

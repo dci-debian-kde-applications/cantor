@@ -1,3 +1,4 @@
+etc/xdg/cantor_qalculate.knsrc
 usr/lib/*/qt5/plugins/cantor/assistants/cantor_qalculateplotassistant.so
 usr/lib/*/qt5/plugins/cantor/backends/cantor_qalculatebackend.so
 usr/share/cantor/cantor_qalculateplotassistant.rc
