@@ -7,12 +7,12 @@ Subject: maxima_waiting_the_carriage
  src/backends/maxima/maximasession.cpp | 6 ++++++
  1 file changed, 6 insertions(+)
 
-Index: cantor/src/backends/maxima/maximasession.cpp
+Index: b/src/backends/maxima/maximasession.cpp
 ===================================================================
---- cantor.orig/src/backends/maxima/maximasession.cpp
-+++ cantor/src/backends/maxima/maximasession.cpp
-@@ -205,6 +205,12 @@ void MaximaSession::readStdOut()
-     QString out=m_process->readAllStandardOutput();
+--- a/src/backends/maxima/maximasession.cpp
++++ b/src/backends/maxima/maximasession.cpp
+@@ -201,6 +201,12 @@
+     QString out=QLatin1String(m_process->readAllStandardOutput());
  #endif
  
 +    // maxima sends a \r when finishes processing it's input.
@@ -23,4 +23,4 @@ Index: cantor/src/backends/maxima/maximasession.cpp
 +    }
      out.remove(QLatin1Char('\r'));
  
-     qDebug()<<"out: "<<out;
+     qDebug() << "std out: " << out;

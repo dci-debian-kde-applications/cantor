@@ -7,11 +7,11 @@ Subject: maxima_multiresults
  src/backends/maxima/maximaexpression.cpp | 7 ++++++-
  1 file changed, 6 insertions(+), 1 deletion(-)
 
-Index: cantor/src/backends/maxima/maximaexpression.cpp
+Index: b/src/backends/maxima/maximaexpression.cpp
 ===================================================================
---- cantor.orig/src/backends/maxima/maximaexpression.cpp
-+++ cantor/src/backends/maxima/maximaexpression.cpp
-@@ -481,6 +481,12 @@ bool MaximaExpression::parseOutput(QStri
+--- a/src/backends/maxima/maximaexpression.cpp
++++ b/src/backends/maxima/maximaexpression.cpp
+@@ -472,6 +472,12 @@
                  {
                      //if we got an error message, but also a result, lets just+
                      //assume that it was just a warning, as obviously something worked
