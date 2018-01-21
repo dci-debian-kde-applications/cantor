@@ -139,16 +139,6 @@ Description: Octave backend for Cantor
  .
  This package is part of the KDE education module.
 
-Package: cantor-backend-python
-Architecture: all
-Priority: optional
-Section: oldlibs
-Depends: cantor-backend-python2
-Description: Python backend for Cantor -- transitional package
- Transitional package for cantor-backend-python2
- .
- This package can be safely removed after installation
-
 Package: cantor-backend-python2
 Architecture: any
 Section: math
